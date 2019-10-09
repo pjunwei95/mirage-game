@@ -2,7 +2,7 @@
 {
     "name": "r_gameover",
     "id": "becfd181-74ce-4ba1-ada7-663542a269e2",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

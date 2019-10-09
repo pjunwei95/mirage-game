@@ -2,7 +2,7 @@
     "id": "18fd6b68-9b9c-4cf7-b1e4-d2dbc181ff10",
     "modelName": "GMPath",
     "mvc": "1.0",
-    "name": "EnemyPath",
+    "name": "enemy_path",
     "closed": false,
     "hsnap": 0,
     "kind": 0,

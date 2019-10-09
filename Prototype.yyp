@@ -50,7 +50,7 @@
             "Key": "18fd6b68-9b9c-4cf7-b1e4-d2dbc181ff10",
             "Value": {
                 "id": "13d84c90-c9ee-406c-973a-75d91d489897",
-                "resourcePath": "paths\/EnemyPath\/EnemyPath.yy",
+                "resourcePath": "paths\\enemy_path\\enemy_path.yy",
                 "resourceType": "GMPath"
             }
         },
@@ -346,7 +346,7 @@
             "Key": "aa105aa2-f58d-418e-b593-ec22c5ef846a",
             "Value": {
                 "id": "a6d67489-6464-469e-b6dc-7be133867c2c",
-                "resourcePath": "paths\/EnemyPath1\/EnemyPath1.yy",
+                "resourcePath": "paths\\enemy_path1\\enemy_path1.yy",
                 "resourceType": "GMPath"
             }
         },
