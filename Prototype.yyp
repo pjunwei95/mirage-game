@@ -79,14 +79,6 @@
             }
         },
         {
-            "Key": "2d9afcb6-eb0f-4435-8d28-0e5a1623e3e7",
-            "Value": {
-                "id": "a9b26a58-f167-4764-9f39-08daaea1432d",
-                "resourcePath": "objects\\obj_test\\obj_test.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "33bb15a2-1878-440f-9546-2f23aaed7a1f",
             "Value": {
                 "id": "b632dc89-946a-481a-9a23-7de3434ab5ad",
@@ -114,7 +106,7 @@
             "Key": "5415348c-8160-4526-898c-89c49f6313c5",
             "Value": {
                 "id": "b5772cac-1edb-46fb-8c50-bc6ec409a5f2",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\/room0\/room0.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -159,22 +151,6 @@
             }
         },
         {
-            "Key": "769a2dc8-43ca-4a9e-8dee-8a74120d0b6f",
-            "Value": {
-                "id": "1c5c279b-de4e-44d4-a31b-26896452747f",
-                "resourcePath": "rooms\\room_jw1a\\room_jw1a.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "80515256-8567-4975-8159-b2c04b0d4395",
-            "Value": {
-                "id": "5cffcf14-5558-466b-b5fa-16ea00d3cfe9",
-                "resourcePath": "rooms\\room_jwReal\\room_jwReal.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "80bec8de-be81-420c-a824-1d592a2687b2",
             "Value": {
                 "id": "c2838d77-67f5-4ea8-b76a-42734ae1ca56",
@@ -199,22 +175,6 @@
             }
         },
         {
-            "Key": "97bc4ee3-1988-44a4-bb35-f4246a944ac3",
-            "Value": {
-                "id": "33efca4b-cb3c-40f2-b66e-ff0b60644f67",
-                "resourcePath": "sprites\/sprite4\/sprite4.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "97fd5f73-0adf-4b8d-b07f-d44aeb5255de",
-            "Value": {
-                "id": "8469df42-92fe-4d30-b59a-a05729a8aa66",
-                "resourcePath": "objects\\obj_alarm\\obj_alarm.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "9f57eb14-320d-43fd-b96d-710f10172011",
             "Value": {
                 "id": "d07c9fe8-4aad-4915-90c9-79e081bcdf3c",
@@ -236,14 +196,6 @@
                 "id": "b6cda947-3b37-476f-bb3f-81b651738d4c",
                 "resourcePath": "options\/linux\/options_linux.yy",
                 "resourceType": "GMLinuxOptions"
-            }
-        },
-        {
-            "Key": "aeaedaa2-8cbd-4d0d-b0ef-a45d64cd6db2",
-            "Value": {
-                "id": "b981a9be-0c76-4cf1-a6cc-b34a1ba1d1bb",
-                "resourcePath": "rooms\\room_jw1\\room_jw1.yy",
-                "resourceType": "GMRoom"
             }
         },
         {

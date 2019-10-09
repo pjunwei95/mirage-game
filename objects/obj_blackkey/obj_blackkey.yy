@@ -25,7 +25,7 @@
             "m_owner": "80bec8de-be81-420c-a824-1d592a2687b2"
         },
         {
-            "id": "7525baa2-8d81-4d96-9242-b8701c0c213c",
+            "id": "f1fcee26-647d-4c45-bc4b-2ee4ce077ade",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -38,7 +38,7 @@
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
-    "persistent": true,
+    "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,

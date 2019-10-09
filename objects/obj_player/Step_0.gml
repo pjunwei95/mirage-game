@@ -47,7 +47,7 @@ if (place_free(x,y+1) && !place_meeting(x,y,obj_ladder))
 else
 {
 	grv = 0;
-} 
+}
 
 // Ladder
 if (place_meeting(x,y,obj_ladder))
