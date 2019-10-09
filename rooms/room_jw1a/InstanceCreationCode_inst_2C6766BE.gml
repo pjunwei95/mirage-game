@@ -1,1 +1,0 @@
-new_room = room_jw1;

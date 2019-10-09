@@ -130,7 +130,7 @@
             "Key": "503de8af-0c67-4d3f-8824-f75f3d31fdaa",
             "Value": {
                 "id": "4737371e-34ab-4ed7-b03c-c9d7c8367de8",
-                "resourcePath": "rooms\\Menu\\Menu.yy",
+                "resourcePath": "rooms\\menu\\menu.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -218,7 +218,7 @@
             "Key": "769a2dc8-43ca-4a9e-8dee-8a74120d0b6f",
             "Value": {
                 "id": "1c5c279b-de4e-44d4-a31b-26896452747f",
-                "resourcePath": "rooms\\room_jw1a\\room_jw1a.yy",
+                "resourcePath": "rooms\\jw_room1a\\jw_room1a.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -234,7 +234,7 @@
             "Key": "7ae11f4e-ae5c-439c-aa6e-c67dd3333b15",
             "Value": {
                 "id": "6ba3578f-4f17-46d6-80b0-2b14e8836d66",
-                "resourcePath": "objects\\o_menu\\o_menu.yy",
+                "resourcePath": "objects\\obj_menu\\obj_menu.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -258,7 +258,7 @@
             "Key": "80515256-8567-4975-8159-b2c04b0d4395",
             "Value": {
                 "id": "5cffcf14-5558-466b-b5fa-16ea00d3cfe9",
-                "resourcePath": "rooms\\room_jwReal\\room_jwReal.yy",
+                "resourcePath": "rooms\\jw_room_test\\jw_room_test.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -300,14 +300,6 @@
                 "id": "6c1e62f9-5730-4126-82df-179a88718b52",
                 "resourcePath": "fonts\/fnt_small\/fnt_small.yy",
                 "resourceType": "GMFont"
-            }
-        },
-        {
-            "Key": "97bc4ee3-1988-44a4-bb35-f4246a944ac3",
-            "Value": {
-                "id": "33efca4b-cb3c-40f2-b66e-ff0b60644f67",
-                "resourcePath": "sprites\/sprite4\/sprite4.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -362,7 +354,7 @@
             "Key": "aeaedaa2-8cbd-4d0d-b0ef-a45d64cd6db2",
             "Value": {
                 "id": "b981a9be-0c76-4cf1-a6cc-b34a1ba1d1bb",
-                "resourcePath": "rooms\\room_jw1\\room_jw1.yy",
+                "resourcePath": "rooms\\jw_room1\\jw_room1.yy",
                 "resourceType": "GMRoom"
             }
         },
