@@ -1,3 +1,3 @@
- /// @description init room
+/// @description init room
 
 new_room = noone;
