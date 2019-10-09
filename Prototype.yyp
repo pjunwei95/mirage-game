@@ -71,14 +71,6 @@
             }
         },
         {
-            "Key": "2cd80c5f-0bf1-41de-b9f9-eb528975f223",
-            "Value": {
-                "id": "aaa029f9-e416-4e84-9d09-029d836b1c8f",
-                "resourcePath": "objects\/obj_roomswitch\/obj_roomswitch.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "2d9afcb6-eb0f-4435-8d28-0e5a1623e3e7",
             "Value": {
                 "id": "a9b26a58-f167-4764-9f39-08daaea1432d",
@@ -103,11 +95,27 @@
             }
         },
         {
+            "Key": "356d00a8-e60f-4e58-8599-bc57e73697e7",
+            "Value": {
+                "id": "dd57b036-fbe6-43bb-91fc-dd7e0f61f8ab",
+                "resourcePath": "fonts\\font_main\\font_main.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "3729d6e1-8ad9-49e4-a164-dcdec787903b",
             "Value": {
                 "id": "b66f3de0-0ff1-4f55-ad1f-d1fe2d12faf7",
                 "resourcePath": "views\/3729d6e1-8ad9-49e4-a164-dcdec787903b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "503de8af-0c67-4d3f-8824-f75f3d31fdaa",
+            "Value": {
+                "id": "4737371e-34ab-4ed7-b03c-c9d7c8367de8",
+                "resourcePath": "rooms\\Menu\\Menu.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -167,6 +175,14 @@
             }
         },
         {
+            "Key": "7ae11f4e-ae5c-439c-aa6e-c67dd3333b15",
+            "Value": {
+                "id": "6ba3578f-4f17-46d6-80b0-2b14e8836d66",
+                "resourcePath": "objects\\o_menu\\o_menu.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "80515256-8567-4975-8159-b2c04b0d4395",
             "Value": {
                 "id": "5cffcf14-5558-466b-b5fa-16ea00d3cfe9",
@@ -212,6 +228,14 @@
                 "id": "8469df42-92fe-4d30-b59a-a05729a8aa66",
                 "resourcePath": "objects\\obj_alarm\\obj_alarm.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "99d82d78-c7de-430c-80fd-3b0f5ee31e3d",
+            "Value": {
+                "id": "611efcbb-0879-438c-a908-6cffb3de2a69",
+                "resourcePath": "sprites\\bg_checkertile\\bg_checkertile.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -279,6 +303,14 @@
             }
         },
         {
+            "Key": "ba9f0c39-5c63-433d-9a6f-752201e3efe7",
+            "Value": {
+                "id": "165500f4-e47d-4129-96e3-04ce36b6bea0",
+                "resourcePath": "sounds\\sound_menu_switch\\sound_menu_switch.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "be3d928c-6aec-48af-bf42-0a7767209fa0",
             "Value": {
                 "id": "4e37bb3a-c510-473b-8f4b-4c1df01359f7",
@@ -292,6 +324,22 @@
                 "id": "6018d689-fdcd-4fcf-ae92-708c23d5b7fd",
                 "resourcePath": "options\/windows\/options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "ccd926c4-a43c-4d28-b73e-e811bc67e511",
+            "Value": {
+                "id": "32c6accc-22b8-4283-8042-7020e3bf596f",
+                "resourcePath": "tilesets\\tileset0\\tileset0.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "d7359835-79d3-400f-80b0-9bb1317410e0",
+            "Value": {
+                "id": "1d27a870-530e-4d28-93b4-8b9d4535d291",
+                "resourcePath": "objects\\obj_roomSwitch\\obj_roomSwitch.yy",
+                "resourceType": "GMObject"
             }
         },
         {
