@@ -71,14 +71,6 @@
             }
         },
         {
-            "Key": "2cd80c5f-0bf1-41de-b9f9-eb528975f223",
-            "Value": {
-                "id": "aaa029f9-e416-4e84-9d09-029d836b1c8f",
-                "resourcePath": "objects\/obj_roomswitch\/obj_roomswitch.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "2d9afcb6-eb0f-4435-8d28-0e5a1623e3e7",
             "Value": {
                 "id": "a9b26a58-f167-4764-9f39-08daaea1432d",
@@ -292,6 +284,14 @@
                 "id": "6018d689-fdcd-4fcf-ae92-708c23d5b7fd",
                 "resourcePath": "options\/windows\/options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d7359835-79d3-400f-80b0-9bb1317410e0",
+            "Value": {
+                "id": "384b5150-0d28-4d9f-afd7-e653345299c1",
+                "resourcePath": "objects\\obj_roomSwitch\\obj_roomSwitch.yy",
+                "resourceType": "GMObject"
             }
         },
         {
