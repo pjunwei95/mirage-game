@@ -1,6 +1,6 @@
 // Player input
-key_left = keyboard_check(ord("A"));
-key_right = keyboard_check(ord("D"));
+key_left = keyboard_check(vk_left);
+key_right = keyboard_check(vk_right);
 key_jump = keyboard_check_pressed(vk_space);
 
 // Calculate movement
@@ -12,7 +12,7 @@ vsp = vsp + grv;
 
 if (place_meeting(x,y+1,obj_wall)) && (key_jump)
 {
-	vsp = -7;
+	vsp = -8;
 	
 }
 
@@ -38,3 +38,28 @@ if (place_meeting(x,y+vsp,obj_wall))
 	vsp = 0;
 }
 y = y + vsp;
+
+// Gravity
+if (place_free(x,y+1) && !place_meeting(x,y,obj_ladder))
+{
+	grv = 0.5;
+}
+else
+{
+	grv = 0;
+} 
+
+// Ladder
+if (place_meeting(x,y,obj_ladder))
+{
+	grv = 0;
+	vsp = 0;
+	if (keyboard_check(vk_up))
+	{
+		vsp = -2;
+	}
+	if (keyboard_check(vk_down))
+	{
+		vsp = 2;
+	}	
+}
