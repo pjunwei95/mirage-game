@@ -1,8 +1,16 @@
 // Player input
-key_left = keyboard_check(vk_left);
-key_right = keyboard_check(vk_right);
-key_jump = keyboard_check_pressed(vk_space);
-
+if (hascontrol)
+{
+	key_left = keyboard_check(vk_left);
+	key_right = keyboard_check(vk_right);
+	key_jump = keyboard_check_pressed(vk_space);
+}
+else
+{
+	key_right = 0;
+	key_left = 0;
+	key_jump = 0;
+}
 // Calculate movement
 var move = key_right - key_left;
 
@@ -47,7 +55,7 @@ if (place_free(x,y+1) && !place_meeting(x,y,obj_ladder))
 else
 {
 	grv = 0;
-} 
+}
 
 // Ladder
 if (place_meeting(x,y,obj_ladder))
