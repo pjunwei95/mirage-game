@@ -1,4 +1,3 @@
-
 /// @description key pressed room switch
 
 var (switch_key) = keyboard_check_pressed(ord("R"))

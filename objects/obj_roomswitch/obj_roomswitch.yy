@@ -1,28 +1,28 @@
 {
-    "id": "2cd80c5f-0bf1-41de-b9f9-eb528975f223",
+    "id": "d7359835-79d3-400f-80b0-9bb1317410e0",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_roomswitch",
+    "name": "obj_roomSwitch",
     "eventList": [
         {
-            "id": "0a97d789-df9c-4489-8a6c-c2524e1d21b6",
+            "id": "3ae03986-3e21-4900-90c1-f80eff88491d",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "2cd80c5f-0bf1-41de-b9f9-eb528975f223"
+            "m_owner": "d7359835-79d3-400f-80b0-9bb1317410e0"
         },
         {
-            "id": "c6eec4b5-40e2-41e9-bc70-1a8a1ea0957f",
+            "id": "57bfd7d7-1ced-4b78-bd74-02dee62cbde5",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "2cd80c5f-0bf1-41de-b9f9-eb528975f223"
+            "m_owner": "d7359835-79d3-400f-80b0-9bb1317410e0"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
