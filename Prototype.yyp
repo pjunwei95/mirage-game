@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "06953709-9671-4498-b859-6bdb6ac135a2",
+            "Value": {
+                "id": "031ab2f4-2b72-4761-8432-599c24bad9bc",
+                "resourcePath": "objects\\obj_drawText\\obj_drawText.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0e972fca-8f08-411d-8f6c-5c4d6953ab15",
             "Value": {
                 "id": "32b55e2a-3191-4fa9-be17-f48c454ef763",
@@ -124,6 +132,14 @@
                 "id": "b66f3de0-0ff1-4f55-ad1f-d1fe2d12faf7",
                 "resourcePath": "views\/3729d6e1-8ad9-49e4-a164-dcdec787903b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "469892a3-7e1f-4812-865f-1344a92c438d",
+            "Value": {
+                "id": "0333044e-63e7-46bf-9e76-677674190e25",
+                "resourcePath": "scripts\\say\\say.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -391,6 +407,14 @@
             }
         },
         {
+            "Key": "b83dd1f3-7209-4207-bb9a-8903a7ba94ed",
+            "Value": {
+                "id": "580f7eb8-d9c9-4a6b-af86-4c3b6353cc8d",
+                "resourcePath": "objects\\obj_dialogueTrigger\\obj_dialogueTrigger.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b8c70fe1-e732-42fe-b80e-550f0c4d98da",
             "Value": {
                 "id": "067c8f92-f4dd-4726-9587-dbdf8c40d24d",
@@ -504,7 +528,8 @@
         }
     ],
     "script_order": [
-        "640df197-4e28-49a5-a1dc-7e83c9536c31"
+        "640df197-4e28-49a5-a1dc-7e83c9536c31",
+        "469892a3-7e1f-4812-865f-1344a92c438d"
     ],
     "tutorial": ""
 }
