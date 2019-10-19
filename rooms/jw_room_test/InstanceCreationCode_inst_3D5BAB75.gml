@@ -1,1 +1,0 @@
-msg = "Press 'e' to switch dimension"

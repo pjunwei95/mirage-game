@@ -1,1 +1,0 @@
-target = r_gameover;

@@ -18,17 +18,84 @@ hsp = move * walksp;
 
 vsp = vsp + grv;
 
-if (place_meeting(x,y+1,obj_wall)) && (key_jump)
+if (place_meeting(x,y+1,obj_greenwall)) && (key_jump)
 {
 	vsp = -8;
 	
 }
 
-
-// Horizontal collision
-if (place_meeting(x+hsp,y,obj_wall))
+if (place_meeting(x,y+1,obj_bluewall)) && (key_jump)
 {
-	while (!place_meeting(x+sign(hsp),y,obj_wall))
+	vsp = -8;
+	
+}
+
+if (place_meeting(x,y+1,obj_yellowwall)) && (key_jump)
+{
+	vsp = -8;
+	
+}
+
+if (place_meeting(x,y+1,obj_redwall)) && (key_jump)
+{
+	vsp = -8;
+	
+}
+
+if (place_meeting(x,y+1,obj_greywall)) && (key_jump)
+{
+	vsp = -8;
+	
+}
+// Horizontal collision
+if (place_meeting(x+hsp,y,obj_greenwall))
+{
+	while (!place_meeting(x+sign(hsp),y,obj_greenwall))
+	{
+		x = x + sign(hsp);
+	}	
+	hsp = 0;
+}
+
+if (place_meeting(x+hsp,y,obj_bluewall))
+{
+	while (!place_meeting(x+sign(hsp),y,obj_bluewall))
+	{
+		x = x + sign(hsp);
+	}	
+	hsp = 0;
+}
+
+if (place_meeting(x+hsp,y,obj_yellowwall))
+{
+	while (!place_meeting(x+sign(hsp),y,obj_yellowwall))
+	{
+		x = x + sign(hsp);
+	}	
+	hsp = 0;
+}
+
+if (place_meeting(x+hsp,y,obj_redwall))
+{
+	while (!place_meeting(x+sign(hsp),y,obj_redwall))
+	{
+		x = x + sign(hsp);
+	}	
+	hsp = 0;
+}
+
+if (place_meeting(x+hsp,y,obj_greywall))
+{
+	while (!place_meeting(x+sign(hsp),y,obj_greywall))
+	{
+		x = x + sign(hsp);
+	}	
+	hsp = 0;
+}
+
+if (place_meeting(x+hsp,y,obj_destroyablewall))
+{
+	while (!place_meeting(x+sign(hsp),y,obj_destroyablewall))
 	{
 		x = x + sign(hsp);
 	}	
@@ -36,10 +103,51 @@ if (place_meeting(x+hsp,y,obj_wall))
 }
 x = x + hsp;
 
+
 // Vertical collision
-if (place_meeting(x,y+vsp,obj_wall))
+if (place_meeting(x,y+vsp,obj_greenwall))
 {
-	while (!place_meeting(x,y+sign(vsp),obj_wall))
+	while (!place_meeting(x,y+sign(vsp),obj_greenwall))
+	{
+		y = y + sign(vsp);
+	}	
+	vsp = 0;
+}
+if (place_meeting(x,y+vsp,obj_bluewall))
+{
+	while (!place_meeting(x,y+sign(vsp),obj_bluewall))
+	{
+		y = y + sign(vsp);
+	}	
+	vsp = 0;
+}
+if (place_meeting(x,y+vsp,obj_yellowwall))
+{
+	while (!place_meeting(x,y+sign(vsp),obj_yellowwall))
+	{
+		y = y + sign(vsp);
+	}	
+	vsp = 0;
+}
+if (place_meeting(x,y+vsp,obj_redwall))
+{
+	while (!place_meeting(x,y+sign(vsp),obj_redwall))
+	{
+		y = y + sign(vsp);
+	}	
+	vsp = 0;
+}
+if (place_meeting(x,y+vsp,obj_greywall))
+{
+	while (!place_meeting(x,y+sign(vsp),obj_greywall))
+	{
+		y = y + sign(vsp);
+	}	
+	vsp = 0;
+}
+if (place_meeting(x,y+vsp,obj_destroyablewall))
+{
+	while (!place_meeting(x,y+sign(vsp),obj_destroyablewall))
 	{
 		y = y + sign(vsp);
 	}	
@@ -70,4 +178,10 @@ if (place_meeting(x,y,obj_ladder))
 	{
 		vsp = 2;
 	}	
+}
+
+// Restart room
+if (keyboard_check_released(ord("P")))
+{	
+	SlideTransition(TRANS_MODE.GOTO,room2);
 }
