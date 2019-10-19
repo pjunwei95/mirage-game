@@ -6,7 +6,9 @@
     "children": [
         "bb102481-c510-4db5-8127-44ba4286b9b0",
         "0ff63002-f586-457b-96b2-10c6f988cecc",
-        "efd2c5a6-34ab-4e3b-b1ec-b6881ff9978b"
+        "efd2c5a6-34ab-4e3b-b1ec-b6881ff9978b",
+        "aa105aa2-f58d-418e-b593-ec22c5ef846a",
+        "18fd6b68-9b9c-4cf7-b1e4-d2dbc181ff10"
     ],
     "filterType": "GMPath",
     "folderName": "paths",
