@@ -34,7 +34,7 @@
             "Key": "06953709-9671-4498-b859-6bdb6ac135a2",
             "Value": {
                 "id": "031ab2f4-2b72-4761-8432-599c24bad9bc",
-                "resourcePath": "objects\\obj_drawText\\obj_drawText.yy",
+                "resourcePath": "objects\\obj_drawDialog\\obj_drawDialog.yy",
                 "resourceType": "GMObject"
             }
         },
