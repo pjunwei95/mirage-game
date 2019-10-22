@@ -30,7 +30,7 @@
             "Key": "06953709-9671-4498-b859-6bdb6ac135a2",
             "Value": {
                 "id": "031ab2f4-2b72-4761-8432-599c24bad9bc",
-                "resourcePath": "objects\\obj_drawText\\obj_drawText.yy",
+                "resourcePath": "objects\\obj_drawDialog\\obj_drawDialog.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -96,6 +96,14 @@
                 "id": "1049d62a-5622-4947-9e9c-735726830ed2",
                 "resourcePath": "objects/naz_obj_credits_text/naz_obj_credits_text.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1855fbf0-f06d-4b5d-b725-a0e996f07cee",
+            "Value": {
+                "id": "b91a1f7f-e401-4961-a64a-87a6d959423e",
+                "resourcePath": "rooms\\tutorial1a\\tutorial1a.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -174,7 +182,7 @@
             "Key": "2bf17c1c-5764-48f1-a42d-516aad204ab4",
             "Value": {
                 "id": "9efac88e-509e-4cb1-986d-078661180d3e",
-                "resourcePath": "rooms\\tutorial1a\\tutorial1a.yy",
+                "resourcePath": "rooms\\tutorial1\\tutorial1.yy",
                 "resourceType": "GMRoom"
             }
         },
