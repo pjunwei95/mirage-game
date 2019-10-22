@@ -11,6 +11,7 @@ else
 	key_left = 0;
 	key_jump = 0;
 }
+
 // Calculate movement
 var move = key_right - key_left;
 
@@ -153,7 +154,7 @@ if (place_meeting(x,y+vsp,obj_destroyablewall))
 	}	
 	vsp = 0;
 }
-y = y + vsp;
+y += vsp;
 
 // Gravity
 if (place_free(x,y+1) && !place_meeting(x,y,obj_ladder))
@@ -166,7 +167,7 @@ else
 }
 
 // Ladder
-if (place_meeting(x,y,obj_ladder))
+if (place_meeting(x,y,obj_ladder)) 
 {
 	grv = 0;
 	vsp = 0;
@@ -180,8 +181,165 @@ if (place_meeting(x,y,obj_ladder))
 	}	
 }
 
-// Restart room
-if (keyboard_check_released(ord("P")))
-{	
-	SlideTransition(TRANS_MODE.GOTO,room2);
+// Action Key
+action_key = keyboard_check_pressed(ord("Z"))
+
+// Interacting with obj_table_with_rice
+if (action_key)
+{
+	if (!instance_exists(obj_chopsticks))
+	{
+		if (place_meeting(x,y,obj_table_with_rice))
+		{
+			global.tablewithrice = 1;
+			instance_destroy(obj_table_with_rice);
+			obj_table_with_rice_and_chopsticks.visible = true;
+		}
+	}
+}	
+
+// Interacting with obj_door_missing_shard
+if (action_key)
+{
+	if (!instance_exists(obj_shard))
+	{
+		if (place_meeting(x,y,obj_door_missing_shard))
+		{
+			global.door_missing_shard = 1;
+			instance_destroy(obj_door_missing_shard);
+			obj_complete_door.visible = true;
+		}
+	}
+}	
+
+// Animation
+if (!place_meeting(x,y+1,obj_greenwall))
+{
+	sprite_index = spr_player_jumping;
+	image_speed = 0;
+	if (sign(vsp) > 0) image_index = 1; else image_index = 0
+}
+else
+{
+	image_speed = 1;
+	if (hsp == 0)
+	{
+		sprite_index = spr_player;		
+	}
+	else
+	{
+		sprite_index = spr_player_running;
+	}
+}
+
+if (!place_meeting(x,y+1,obj_bluewall))
+{
+	sprite_index = spr_player_jumping;
+	image_speed = 0;
+	if (sign(vsp) > 0) image_index = 1; else image_index = 0
+}
+else
+{
+	image_speed = 1;
+	if (hsp == 0)
+	{
+		sprite_index = spr_player;
+	}
+	else
+	{
+		sprite_index = spr_player_running;
+	}
+}
+
+if (!place_meeting(x,y+1,obj_yellowwall))
+{
+	sprite_index = spr_player_jumping;
+	image_speed = 0;
+	if (sign(vsp) > 0) image_index = 1; else image_index = 0
+}
+else
+{
+	image_speed = 1;
+	if (hsp == 0)
+	{
+		sprite_index = spr_player;
+	}
+	else
+	{
+		sprite_index = spr_player_running;
+	}
+}
+
+if (!place_meeting(x,y+1,obj_redwall))
+{
+	sprite_index = spr_player_jumping;
+	image_speed = 0;
+	if (sign(vsp) > 0) image_index = 1; else image_index = 0
+}
+else
+{
+	image_speed = 1;
+	if (hsp == 0)
+	{
+		sprite_index = spr_player;
+	}
+	else
+	{
+		sprite_index = spr_player_running;
+	}
+}
+
+if (!place_meeting(x,y+1,obj_greywall))
+{
+	sprite_index = spr_player_jumping;
+	image_speed = 0;
+	if (sign(vsp) > 0) image_index = 1; else image_index = 0
+}
+else
+{
+	image_speed = 1;
+	if (hsp == 0)
+	{
+		sprite_index = spr_player;
+	}
+	else
+	{
+		sprite_index = spr_player_running;
+	}
+}
+
+if (!place_meeting(x,y+1,obj_destroyablewall))
+{
+	sprite_index = spr_player_jumping;
+	image_speed = 0;
+	if (sign(vsp) > 0) image_index = 1; else image_index = 0
+}
+else
+{
+	image_speed = 1;
+	if (hsp == 0)
+	{
+		sprite_index = spr_player;
+	}
+	else
+	{
+		sprite_index = spr_player_running;
+	}
+}
+
+
+if (hsp != 0) image_xscale = sign(hsp);
+
+if (place_meeting(x,y,obj_ladder)) 
+{
+	if (key_left) or (key_right)
+	{
+		sprite_index = spr_player_running;
+		image_speed = 1;
+	}
+	else
+	{
+	sprite_index = spr_player_climbing;
+	image_speed = 1;
+	}
 }

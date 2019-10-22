@@ -32,8 +32,6 @@
         "d8671569-d9b2-4f6c-8d35-4eeba043c032",
         "77c50629-f6a8-4caf-98f7-d137949c292b",
         "1d8251bd-b991-411e-9dbb-37adf09e8e98",
-        "0bcaa1f6-0126-4bef-92ec-51c2b26cda6d",
-        "22fad315-e2fd-4ff6-b6cc-31dde5f590ce",
         "a9073e66-5f9a-49a6-b0ef-c31b1e452f88",
         "e7a03f95-1e7d-474f-bf5f-040b5f857697",
         "b6a58f03-6773-4b2b-af17-763bf3089cd4",
@@ -72,8 +70,8 @@
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Invisible_layer",
-            "id": "0222dacd-5b3f-4389-ae6a-08fb9e311800",
+            "name": "Black_door",
+            "id": "35284893-76aa-4bab-b17e-6d9ffa845f97",
             "depth": 100,
             "grid_x": 32,
             "grid_y": 32,
@@ -84,7 +82,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_3785561C","id": "0bcaa1f6-0126-4bef-92ec-51c2b26cda6d","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3785561C","objId": "80bec8de-be81-420c-a824-1d592a2687b2","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 320,"y": 448}
+
             ],
             "layers": [
 
@@ -98,35 +96,9 @@
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Black_door",
-            "id": "35284893-76aa-4bab-b17e-6d9ffa845f97",
-            "depth": 200,
-            "grid_x": 32,
-            "grid_y": 32,
-            "hierarchyFrozen": false,
-            "hierarchyVisible": true,
-            "inheritLayerDepth": false,
-            "inheritLayerSettings": false,
-            "inheritSubLayers": false,
-            "inheritVisibility": false,
-            "instances": [
-{"name": "inst_4E5E00AA","id": "22fad315-e2fd-4ff6-b6cc-31dde5f590ce","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_4E5E00AA","objId": "7688280a-6ee7-46d0-bdf4-92136ed7fbbb","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 640,"y": 320}
-            ],
-            "layers": [
-
-            ],
-            "m_parentID": "00000000-0000-0000-0000-000000000000",
-            "m_serialiseFrozen": false,
-            "modelName": "GMRInstanceLayer",
-            "mvc": "1.0",
-            "userdefined_depth": false,
-            "visible": true
-        },
-        {
-            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Instances",
+            "name": "Walls",
             "id": "ad333200-2e94-4490-95d3-d9a28908283c",
-            "depth": 300,
+            "depth": 200,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -181,7 +153,7 @@
             "animationFPS": 15,
             "animationSpeedType": "0",
             "colour": { "Value": 4283256141 },
-            "depth": 400,
+            "depth": 300,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,

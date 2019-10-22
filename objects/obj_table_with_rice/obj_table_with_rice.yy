@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_table_with_rice",
     "eventList": [
-        
+        {
+            "id": "2d5d7885-85e9-4a30-b4e1-0b42d32771cf",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "359d9c2c-bbda-4803-ae59-3bd6d7032f22"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

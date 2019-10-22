@@ -5,19 +5,19 @@
     "name": "obj_door_missing_shard",
     "eventList": [
         {
-            "id": "5ce432ea-a413-4c56-83b6-f7c72eac389f",
+            "id": "7772d34d-0c1d-4b48-b9e2-252bfe421d53",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 0,
+            "eventtype": 3,
             "m_owner": "7688280a-6ee7-46d0-bdf4-92136ed7fbbb"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "be3d928c-6aec-48af-bf42-0a7767209fa0",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

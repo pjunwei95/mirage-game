@@ -1,2 +1,2 @@
-textObj = instance_create_layer(0, 0, "EffectsLayer" ,obj_drawText);
+textObj = instance_create_layer(30, 0, "Dialogue" ,obj_drawDialog);
 textObj.message = argument0;
