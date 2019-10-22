@@ -1,26 +1,26 @@
 {
-    "id": "bb102481-c510-4db5-8127-44ba4286b9b0",
+    "id": "aa105aa2-f58d-418e-b593-ec22c5ef846a",
     "modelName": "GMPath",
     "mvc": "1.0",
-    "name": "path0",
+    "name": "enemy_path1",
     "closed": false,
     "hsnap": 0,
     "kind": 0,
     "points": [
         {
-            "id": "a1822792-ddd1-4b63-931e-2f621e5551aa",
+            "id": "2af154a5-9228-4f9d-843a-b57e360ae7fd",
             "modelName": "GMPathPoint",
             "mvc": "1.0",
-            "x": 800,
-            "y": 352,
+            "x": 704,
+            "y": 448,
             "speed": 100
         },
         {
-            "id": "5b23d24f-323b-4638-818b-bd8a5dcd33f2",
+            "id": "cd966cba-bd72-4e2a-a23d-79ace6ef98e8",
             "modelName": "GMPathPoint",
             "mvc": "1.0",
-            "x": 992,
-            "y": 352,
+            "x": 352,
+            "y": 448,
             "speed": 100
         }
     ],
