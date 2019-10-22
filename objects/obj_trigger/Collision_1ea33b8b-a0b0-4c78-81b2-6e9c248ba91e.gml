@@ -19,3 +19,15 @@ global.josstick2 = 0;
 //Setting of destruction of obj_lethal_ghhost2 and obj_josstick3
 global.lethalghost2 = 0;
 global.josstick3 = 0;
+
+//Setting of destruction of obj_chopsticks
+global.chopsticks = 0;
+
+//Setting of destruction of obj_table_with_rice
+global.tablewithrice = 0;
+
+//Setting of destruction of obj_shard
+global.shard = 0;
+
+//Setting of destruction of obj_door_missing_shard
+global.door_missing_shard = 0;

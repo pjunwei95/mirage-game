@@ -2,7 +2,8 @@
 
 var (switch_key) = keyboard_check_pressed(ord("E"))
 
-if (switch_key){
+if (switch_key)
+{
 	room_goto(new_room);
 	//instance_destroy(obj_player);
 }

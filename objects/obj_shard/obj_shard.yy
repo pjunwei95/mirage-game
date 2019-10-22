@@ -5,16 +5,6 @@
     "name": "obj_shard",
     "eventList": [
         {
-            "id": "35a15a89-62e0-4e07-92a3-201ce02bbc4c",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "80bec8de-be81-420c-a824-1d592a2687b2"
-        },
-        {
             "id": "616d9f36-ebe7-4cdc-800e-e5b283cbd4da",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -25,13 +15,13 @@
             "m_owner": "80bec8de-be81-420c-a824-1d592a2687b2"
         },
         {
-            "id": "f1fcee26-647d-4c45-bc4b-2ee4ce077ade",
+            "id": "00609fed-6912-4196-827e-544cb19bb87a",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 0,
+            "eventtype": 3,
             "m_owner": "80bec8de-be81-420c-a824-1d592a2687b2"
         }
     ],
