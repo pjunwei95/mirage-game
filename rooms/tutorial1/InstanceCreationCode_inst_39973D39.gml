@@ -1,2 +1,1 @@
-msg = "Press left or right arrow keys to move";
-//isCollision = true;
+msg = "Lucy wakes up in her room\nUse the arrow keys to move around";
