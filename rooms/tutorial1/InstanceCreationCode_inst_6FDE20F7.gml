@@ -1,1 +1,1 @@
-//new_room = tutorial1a;
+new_room = tutorial1a;
