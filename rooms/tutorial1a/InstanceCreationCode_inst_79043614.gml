@@ -1,1 +1,0 @@
-msg = "Lucy: Where Am I?";
