@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "1855fbf0-f06d-4b5d-b725-a0e996f07cee",
+            "Value": {
+                "id": "b91a1f7f-e401-4961-a64a-87a6d959423e",
+                "resourcePath": "rooms\\tutorial1a\\tutorial1a.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "18f575bc-8cb8-4fed-b403-ce3ece897a41",
             "Value": {
                 "id": "e88cbabb-7463-4aa1-9276-13599804ce81",
@@ -154,7 +162,7 @@
             "Key": "2bf17c1c-5764-48f1-a42d-516aad204ab4",
             "Value": {
                 "id": "9efac88e-509e-4cb1-986d-078661180d3e",
-                "resourcePath": "rooms\\tutorial1a\\tutorial1a.yy",
+                "resourcePath": "rooms\\tutorial1\\tutorial1.yy",
                 "resourceType": "GMRoom"
             }
         },
