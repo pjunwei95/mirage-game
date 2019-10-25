@@ -4,9 +4,13 @@ with (obj_player)
 	if (hascontrol)	
 	{
 		hascontrol = false;
+		instance_destroy();
 		SlideTransition(TRANS_MODE.GOTO,other.target);
+
 	}	
+	
 }
+
 
 // Setting of destruction of obj_lethal_ghost and obj_josstick1
 global.lethalghost = 0;
