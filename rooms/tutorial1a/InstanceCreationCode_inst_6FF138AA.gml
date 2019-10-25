@@ -1,1 +1,1 @@
-msg = "Press Space to jump"
+msg = "Press 'Space' to jump\n Press 'Z' for action key"
