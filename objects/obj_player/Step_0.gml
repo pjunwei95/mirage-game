@@ -257,7 +257,7 @@ if (place_meeting(x,y,obj_portal)) && (global.stage2 = 1) && (action_key)
 // tutorial level
 if place_meeting(x,y,obj_portalTut) && (action_key)
 {
-	room_goto(room2);
+	room_goto(stage1);
 	instance_destroy(obj_player);
 }
 // Animation
