@@ -5,7 +5,7 @@
     "name": "obj_table_with_rice",
     "eventList": [
         {
-            "id": "2d5d7885-85e9-4a30-b4e1-0b42d32771cf",
+            "id": "6b3c3350-6353-4066-b6a8-fefd9e44aa25",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

@@ -1,4 +1,4 @@
-/// @description destruction of table with rice
+//Destruction of obj_table_with_rice
 if (global.tablewithrice = 1)
 {
 	instance_destroy(obj_table_with_rice);

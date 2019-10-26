@@ -1,17 +1,14 @@
-/// @description Insert description here
-// You can write your code in this editor
+//Changing sprite of angry ghost and changing sprite of insense1
+global.angryghost = 0;
+global.insense1 = 1;
 
-// Setting of destruction of obj_lethal_ghost and obj_josstick1
-global.lethalghost = 0;
-global.josstick1 = 0;
+//Changing sprite of angry ghost 1 and changing sprite of insense2
+global.angryghost1 = 0;
+global.insense2 = 1;
 
-//Setting of destruction of obj_lethal_ghost1 and obj_josstick2
-global.lethalghost1 = 0;
-global.josstick2 = 0;
-
-//Setting of destruction of obj_lethal_ghhost2 and obj_josstick3
-global.lethalghost2 = 0;
-global.josstick3 = 0;
+//Changing sprite of angry ghost 2 and changing sprite of insense3
+global.angryghost2 = 0;
+global.insense3 = 1;
 
 //Setting of destruction of obj_chopsticks
 global.chopsticks = 0;
@@ -22,5 +19,17 @@ global.tablewithrice = 0;
 //Setting of destruction of obj_shard
 global.shard = 0;
 
-//Setting of destruction of obj_door_missing_shard
-global.door_missing_shard = 0;
+// Changing sprite of door missing shard
+global.fulldoor = 1;
+
+// Creating a portal
+global.portal = 1;
+
+//Setting of destruction of obj_destroyable wall
+global.destroyablewall = 0;
+
+//Setting of destruction of obj_hungry_ghost
+global.hungryghost = 0;
+
+//Setting of transition to stage 2 via obj_portal
+global.stage2 = 0;

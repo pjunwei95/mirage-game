@@ -1,5 +1,6 @@
-/// @description destruction of door missing shard
-if (global.door_missing_shard = 1)
+/// @description changing sprite of door missing shard to complete door
+if (global.fulldoor = 0)
 {
-	instance_destroy(obj_door_missing_shard);
+	sprite_index = spr_full_door;
+	image_speed = 1;
 }
