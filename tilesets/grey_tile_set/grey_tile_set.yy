@@ -1,5 +1,5 @@
 {
-    "id": "d84b44da-0913-4c2b-b953-9e89324091aa",
+    "id": "511e182d-c0b8-43f0-a9b4-2374fa575c9f",
     "modelName": "GMTileSet",
     "mvc": "1.11",
     "name": "grey_tile_set",
@@ -17,7 +17,7 @@
     "out_columns": 2,
     "out_tilehborder": 2,
     "out_tilevborder": 2,
-    "spriteId": "086789db-c56a-45b0-b767-8a9c4733fc05",
+    "spriteId": "e1f5500e-78af-4534-8f98-edad5946c4d6",
     "sprite_no_export": true,
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "tile_animation": {

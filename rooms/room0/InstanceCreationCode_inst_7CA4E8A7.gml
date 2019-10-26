@@ -1,1 +1,1 @@
-target = level1;
+target = room2;

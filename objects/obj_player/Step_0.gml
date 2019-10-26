@@ -205,13 +205,61 @@ if (action_key)
 	{
 		if (place_meeting(x,y,obj_door_missing_shard))
 		{
-			global.door_missing_shard = 1;
-			instance_destroy(obj_door_missing_shard);
-			obj_complete_door.visible = true;
+			global.fulldoor = 0;
+			global.portal = 0;
 		}
 	}
 }	
 
+// Interacting with obj_insense1
+if (action_key)
+{
+	if (place_meeting(x,y,obj_insense1))
+	{
+		global.insense1 = 0;
+		global.angryghost = 1;
+	}
+}	
+
+// Interacting with obj_insense2
+if (action_key)
+{
+	if (place_meeting(x,y,obj_insense2))
+	{
+		global.insense2 = 0;
+		global.angryghost1 = 1;
+	}
+}
+
+// Interacting with obj_insense3
+if (action_key)
+{
+	if (place_meeting(x,y,obj_insense3))
+	{
+		global.insense3 = 0;
+		global.angryghost2 = 1;
+	}
+}
+
+// Interacting with obj_portal to go to stage 2
+if (place_meeting(x,y,obj_portal)) && (global.stage2 = 1) && (action_key)
+{
+	with (obj_player)
+	{
+		if (hascontrol)	
+		{
+			hascontrol = false;
+			room_goto(boss_stage_real);
+			instance_destroy(obj_player);
+		}	
+	}
+}
+// tutorial level
+if place_meeting(x,y,obj_portalTut) && (action_key)
+{
+	room_goto(room2);
+	instance_destroy(obj_player);
+}
 // Animation
 if (!place_meeting(x,y+1,obj_greenwall))
 {

@@ -6,7 +6,7 @@ switch (s_menu_index) {
 		room_goto(tutorial1);
 		break;
 	case 1:
-		room_goto(room0);
+		room_goto(room2);
 		break;
 	case 2:
 		room_goto(menu);

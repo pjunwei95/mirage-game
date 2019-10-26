@@ -1,0 +1,1 @@
+new_room = boss_stage_real;
