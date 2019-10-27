@@ -173,11 +173,11 @@ if (place_meeting(x,y,obj_ladder))
 	vsp = 0;
 	if (keyboard_check(vk_up))
 	{
-		vsp = -2;
+		vsp = -3;
 	}
 	if (keyboard_check(vk_down))
 	{
-		vsp = 2;
+		vsp = 3;
 	}	
 }
 
@@ -187,12 +187,12 @@ action_key = keyboard_check_pressed(ord("Z"))
 // Interacting with obj_table_with_rice
 if (action_key)
 {
-	if (!instance_exists(obj_chopsticks))
+	if (global.chopsticks == 1)
 	{
 		if (place_meeting(x,y,obj_table_with_rice))
 		{
 			global.tablewithrice = 1;
-			instance_destroy(obj_table_with_rice);
+			instance_deactivate_object(obj_table_with_rice);
 			obj_table_with_rice_and_chopsticks.visible = true;
 		}
 	}
@@ -217,7 +217,7 @@ if (action_key)
 	if (place_meeting(x,y,obj_insense1))
 	{
 		global.insense1 = 0;
-		global.angryghost = 1;
+		global.angryghost1 = 1;
 	}
 }	
 
@@ -227,7 +227,7 @@ if (action_key)
 	if (place_meeting(x,y,obj_insense2))
 	{
 		global.insense2 = 0;
-		global.angryghost1 = 1;
+		global.angryghost2 = 1;
 	}
 }
 
@@ -237,7 +237,7 @@ if (action_key)
 	if (place_meeting(x,y,obj_insense3))
 	{
 		global.insense3 = 0;
-		global.angryghost2 = 1;
+		global.angryghost3 = 1;
 	}
 }
 
@@ -254,12 +254,14 @@ if (place_meeting(x,y,obj_portal)) && (global.stage2 = 1) && (action_key)
 		}	
 	}
 }
+
 // tutorial level
 if place_meeting(x,y,obj_portalTut) && (action_key)
 {
 	room_goto(stage1);
 	instance_destroy(obj_player);
 }
+
 // Animation
 if (!place_meeting(x,y+1,obj_greenwall))
 {

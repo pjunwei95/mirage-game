@@ -9,9 +9,10 @@ else
 }
 
 ///Changing sprite of angry ghost walking to calm
-if (global.angryghost = 1)
+if (global.angryghost3 = 1)
 {
 	sprite_index = spr_angry_ghost_calm;
 	image_speed = 1;
 	path_end();
 }
+	

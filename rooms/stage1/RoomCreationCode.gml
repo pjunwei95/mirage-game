@@ -1,1 +1,0 @@
-audio_play_sound(naz_sound_room2,10,true);

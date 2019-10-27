@@ -7,13 +7,12 @@ if (obj_table_with_rice_and_chopsticks.visible = true)
 	image_speed = 1;
 	if (place_meeting(x,y,obj_destroyablewall))
 	{
-		global.destroyablewall = 1;
-		instance_destroy(obj_destroyablewall);		
+		global.destroyablewall = 1;		
 	}
 	
 }
 
-if (global.hungryghost = 1)
+if (global.hungryghost == 1)
 {
-	instance_destroy(obj_hungry_ghost);	
+	instance_deactivate_object(obj_hungry_ghost);	
 }
