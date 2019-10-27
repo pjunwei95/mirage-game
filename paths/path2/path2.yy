@@ -1,5 +1,5 @@
 {
-    "id": "efd2c5a6-34ab-4e3b-b1ec-b6881ff9978b",
+    "id": "db5d6ae9-7b5b-4d93-92a9-39d4696d8db4",
     "modelName": "GMPath",
     "mvc": "1.0",
     "name": "path2",
@@ -8,18 +8,18 @@
     "kind": 0,
     "points": [
         {
-            "id": "8e06ac2b-0f29-4bc2-b6be-9a9d74ebb82c",
+            "id": "791afecb-394b-45e7-a596-b02ffd495622",
             "modelName": "GMPathPoint",
             "mvc": "1.0",
-            "x": 320,
+            "x": 608,
             "y": 672,
             "speed": 100
         },
         {
-            "id": "7b2c92a9-5698-47cb-983c-79c2bf899528",
+            "id": "fc5596c5-98b0-4e07-a53b-338b9c42c323",
             "modelName": "GMPathPoint",
             "mvc": "1.0",
-            "x": 640,
+            "x": 352,
             "y": 672,
             "speed": 100
         }

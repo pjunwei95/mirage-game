@@ -1,8 +1,8 @@
 {
-    "id": "f4aeb7dd-3bae-462c-8511-c36879faf78f",
+    "id": "f420fbf1-6811-4187-ab39-7066d095844e",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_gameover",
+    "name": "obj_camera",
     "eventList": [
         
     ],

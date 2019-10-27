@@ -1,18 +1,18 @@
 {
-    "id": "268ed7ff-d95b-48aa-85ce-b83af2c339b6",
+    "id": "0d34ceca-8bc7-4ad9-8bac-f3e577b3aeb2",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_controller",
+    "name": "naz_obj_restart_stage1",
     "eventList": [
         {
-            "id": "d6f36576-e241-40cc-ba63-8ae9e49de235",
+            "id": "2c9532e7-3e77-454b-a8f8-706fd69e840c",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "268ed7ff-d95b-48aa-85ce-b83af2c339b6"
+            "eventtype": 3,
+            "m_owner": "0d34ceca-8bc7-4ad9-8bac-f3e577b3aeb2"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -34,5 +34,5 @@
     "properties": null,
     "solid": false,
     "spriteId": "00000000-0000-0000-0000-000000000000",
-    "visible": false
+    "visible": true
 }
