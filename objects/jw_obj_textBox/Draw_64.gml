@@ -5,13 +5,13 @@
 draw_sprite(box, 0 , box_x, box_y);
 
 //draw portrait back
-draw_sprite(frame, 0, port_x, port_y);
+//draw_sprite(frame, 0, port_x, port_y);
 
 //draw portrait
-draw_sprite(portrait, portrait_index, port_x, port_y);
+//draw_sprite(portrait, portrait_index, port_x, port_y);
 
 //draw portrait frame
-draw_sprite(frame, 1, port_x, port_y);
+//draw_sprite(frame, 1, port_x, port_y);
 
 //draw namebox
 draw_sprite(namebox, 0, namebox_x, namebox_y);
