@@ -1,1 +1,0 @@
-msg = "Lucy wakes up in her room\nUse the arrow keys to move around";

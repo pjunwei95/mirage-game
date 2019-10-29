@@ -1,1 +1,0 @@
-msg = "Lucy: Oh where's everyone?"

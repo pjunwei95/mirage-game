@@ -1,1 +1,0 @@
-msg = "Lucy: Something weird is happening in this room!!!\nPress 'E' to investigate"

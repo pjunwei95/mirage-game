@@ -43,12 +43,11 @@
         "2bd4f619-c406-4ed4-be82-86d7f1a9d30b",
         "e8a059db-1cd3-4e59-8add-307a9b77b61f",
         "20862ade-9286-4a2f-a092-6e4fe9502650",
-        "5118d9f1-8bc8-4211-89e7-7a8c38522db3",
-        "8fb1a466-04da-4bf6-a27b-1633580309b3",
         "4f2222f4-ecea-44fb-97c3-ef755d2f13af",
-        "7d9c020d-42a5-4bf7-96ea-a546a52cf13e",
         "17c10e41-e9a4-4884-9df9-07758a1418e1",
-        "6dbcb51e-a37a-4fe6-b11b-c9597a2040e9"
+        "6dbcb51e-a37a-4fe6-b11b-c9597a2040e9",
+        "cc058bf5-47ed-4162-92a1-3d1099700423",
+        "5557cc66-41f3-43fe-a892-f3ad9d2f29b9"
     ],
     "IsDnD": false,
     "layers": [
@@ -120,9 +119,8 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_39973D39","id": "7d9c020d-42a5-4bf7-96ea-a546a52cf13e","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_39973D39.gml","creationCodeType": ".gml","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_39973D39","objId": "b83dd1f3-7209-4207-bb9a-8903a7ba94ed","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 96,"y": 384},
-{"name": "inst_6AB92E3B","id": "5118d9f1-8bc8-4211-89e7-7a8c38522db3","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_6AB92E3B.gml","creationCodeType": ".gml","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_6AB92E3B","objId": "b83dd1f3-7209-4207-bb9a-8903a7ba94ed","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 192,"y": 352},
-{"name": "inst_7A3D655B","id": "8fb1a466-04da-4bf6-a27b-1633580309b3","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_7A3D655B.gml","creationCodeType": ".gml","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_7A3D655B","objId": "b83dd1f3-7209-4207-bb9a-8903a7ba94ed","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 320,"y": 352}
+{"name": "inst_7E5AA18C","id": "cc058bf5-47ed-4162-92a1-3d1099700423","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_7E5AA18C","objId": "4015ca66-1139-42e1-889d-50ce524c9299","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 480,"y": 128},
+{"name": "inst_769351D4","id": "5557cc66-41f3-43fe-a892-f3ad9d2f29b9","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_769351D4.gml","creationCodeType": ".gml","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_769351D4","objId": "b83dd1f3-7209-4207-bb9a-8903a7ba94ed","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 192,"y": 352}
             ],
             "layers": [
 
@@ -244,12 +242,12 @@
     },
     "roomSettings":     {
         "id": "ef32d64d-d9fe-4258-b47a-1dccfaa99d10",
-        "Height": 700,
+        "Height": 768,
         "inheritRoomSettings": false,
         "modelName": "GMRoomSettings",
         "persistent": true,
         "mvc": "1.0",
-        "Width": 1000
+        "Width": 1024
     },
     "mvc": "1.0",
     "views": [
