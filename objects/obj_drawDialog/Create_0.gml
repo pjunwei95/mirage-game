@@ -6,4 +6,6 @@ char = 0;
 
 Yless = 0;
 
-//Alarm[0] = 1;
+room_speed = 30;
+
+alarm[0] = room_speed*5;
