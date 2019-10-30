@@ -8,7 +8,8 @@
         "1a998f18-5e77-41d6-ab34-0a1f9b1d28a0",
         "121381bb-7e0b-456b-b47b-11ccb207ace1",
         "06953709-9671-4498-b859-6bdb6ac135a2",
-        "b83dd1f3-7209-4207-bb9a-8903a7ba94ed"
+        "b83dd1f3-7209-4207-bb9a-8903a7ba94ed",
+        "394cd049-6351-402f-8069-54b023fdf403"
     ],
     "filterType": "GMObject",
     "folderName": "dialogue",
