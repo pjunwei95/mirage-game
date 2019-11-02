@@ -1,4 +1,4 @@
-//Changing sprite of angry ghost and changing sprite of insense1
+  //Changing sprite of angry ghost and changing sprite of insense1
 global.angryghost1 = 0;
 global.insense1 = 1;
 
@@ -33,3 +33,18 @@ global.hungryghost = 0;
 
 //Setting of transition to stage 2 via obj_portal
 global.stage2 = 0;
+
+//--------TUTORIAL----------------
+global.tut_switch = 0;
+global.tut_chopsticks = 0;
+global.tut_tablewithrice = 0;
+global.tut_hungryghost = 0;	
+
+global.tut_angryghost = 0;
+global.tut_insense = 1
+
+global.tut_shard = 0;
+global.tut_fulldoor = 1;
+global.tut_portal = 1;
+global.tut_stage1 = 0;
+

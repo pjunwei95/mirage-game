@@ -1,0 +1,1 @@
+msg = "Press ‘Z’ key to place the joss sticks\n upright to pay respects to the dead."

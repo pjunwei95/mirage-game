@@ -207,6 +207,20 @@ if (action_key)
 	}
 }	
 
+if (action_key)
+{
+	if (global.tut_chopsticks == 1)
+	{
+		if (place_meeting(x,y,obj_tut_table_with_rice))
+		{
+			global.tut_tablewithrice = 1;
+			instance_deactivate_object(obj_tut_table_with_rice);
+			obj_tut_table_with_rice_and_chopsticks.visible = true;
+			audio_play_sound(hui_chopsticksintorice, 1, 0);
+		}
+	}
+}	
+
 // Interacting with obj_door_missing_shard
 if (action_key)
 {
@@ -216,6 +230,20 @@ if (action_key)
 		{
 			global.fulldoor = 0;
 			global.portal = 0;
+			audio_play_sound(hui_insertmirror, 1, 0);
+		}
+	}
+}	
+
+// Interacting with obj_tut_door_missing_shard
+if (action_key)
+{
+	if (!instance_exists(obj_tut_shard))
+	{
+		if (place_meeting(x,y,obj_tut_door_missing_shard))
+		{
+			global.tut_fulldoor = 0;
+			global.tut_portal = 0;
 			audio_play_sound(hui_insertmirror, 1, 0);
 		}
 	}
@@ -254,6 +282,17 @@ if (action_key)
 	}
 }
 
+// Interacting with obj_tut_insense
+if (action_key)
+{
+	if (place_meeting(x,y,obj_tut_insense))
+	{
+		global.tut_insense = 0;
+		global.tut_angryghost = 1;
+		audio_play_sound(hui_incenseupright, 1, 0);
+	}
+}
+
 // Interacting with obj_portal to go to stage 2
 if (place_meeting(x,y,obj_portal)) && (global.stage2 = 1) && (action_key)
 {
@@ -270,10 +309,11 @@ if (place_meeting(x,y,obj_portal)) && (global.stage2 = 1) && (action_key)
 }
 
 // tutorial level
-if place_meeting(x,y,obj_portalTut) && (action_key)
+if place_meeting(x,y,obj_tut_portal) && (global.tut_stage1 = 1) && (action_key)
 {
 	room_goto(stage1);
 	instance_destroy(obj_player);
+	
 	audio_play_sound(hui_changestage, 1, 0);
 }
 
