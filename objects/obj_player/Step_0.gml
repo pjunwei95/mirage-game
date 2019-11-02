@@ -12,6 +12,14 @@ else
 	key_jump = 0;
 }
 
+// jump sound
+if (key_jump) && !audio_is_playing(hui_jump)
+{
+		audio_play_sound(hui_jump, 5, 0);
+}
+
+
+
 // Calculate movement
 var move = key_right - key_left;
 
@@ -194,6 +202,7 @@ if (action_key)
 			global.tablewithrice = 1;
 			instance_deactivate_object(obj_table_with_rice);
 			obj_table_with_rice_and_chopsticks.visible = true;
+			audio_play_sound(hui_chopsticksintorice, 1, 0);
 		}
 	}
 }	
@@ -207,6 +216,7 @@ if (action_key)
 		{
 			global.fulldoor = 0;
 			global.portal = 0;
+			audio_play_sound(hui_insertmirror, 1, 0);
 		}
 	}
 }	
@@ -218,6 +228,7 @@ if (action_key)
 	{
 		global.insense1 = 0;
 		global.angryghost1 = 1;
+		audio_play_sound(hui_incenseupright, 1, 0);
 	}
 }	
 
@@ -228,6 +239,7 @@ if (action_key)
 	{
 		global.insense2 = 0;
 		global.angryghost2 = 1;
+		audio_play_sound(hui_incenseupright, 1, 0);
 	}
 }
 
@@ -238,6 +250,7 @@ if (action_key)
 	{
 		global.insense3 = 0;
 		global.angryghost3 = 1;
+		audio_play_sound(hui_incenseupright, 1, 0);
 	}
 }
 
@@ -251,6 +264,7 @@ if (place_meeting(x,y,obj_portal)) && (global.stage2 = 1) && (action_key)
 			hascontrol = false;
 			room_goto(boss_stage_real);
 			instance_destroy(obj_player);
+			audio_play_sound(hui_changestage, 1, 0);
 		}	
 	}
 }
@@ -260,6 +274,7 @@ if place_meeting(x,y,obj_portalTut) && (action_key)
 {
 	room_goto(stage1);
 	instance_destroy(obj_player);
+	audio_play_sound(hui_changestage, 1, 0);
 }
 
 // Animation

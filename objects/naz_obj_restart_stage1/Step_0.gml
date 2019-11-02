@@ -1,5 +1,11 @@
 /// @description Restart with R
 if keyboard_check_pressed(ord("R")) {
+	
+	//restart sound
+	{
+		audio_play_sound(hui_reset, 1, 0);
+	}
+	
 	// table with rice reset
 	if (global.tablewithrice == 1) {
 		global.tablewithrice = 0;
