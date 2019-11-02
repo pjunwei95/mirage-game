@@ -1,1 +1,0 @@
-msg = "Oooh a chopstick!"

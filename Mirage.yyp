@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "1a9d4cd8-80c1-4d8f-bfc5-a42e9dbf7320",
+            "Value": {
+                "id": "59a6e156-f5d9-49d2-97b2-9242fbf79935",
+                "resourcePath": "rooms\\tutorial1a\\tutorial1a.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "1af747f5-636f-4bbd-9c78-b06647ab7c6c",
             "Value": {
                 "id": "4d25cddb-9bc4-4242-9b89-13dad4553a6b",
@@ -436,14 +444,6 @@
                 "id": "0333044e-63e7-46bf-9e76-677674190e25",
                 "resourcePath": "scripts\/say\/say.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "47e6d5eb-1ad8-47e7-92cf-42f3394ae856",
-            "Value": {
-                "id": "040afee6-850e-469a-8a44-fb8505f6ed9b",
-                "resourcePath": "rooms\\tutorial1a\\tutorial1a.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -807,6 +807,14 @@
             }
         },
         {
+            "Key": "9cab4206-0dd3-4654-bb98-bffa65a5b300",
+            "Value": {
+                "id": "a21723fa-62b5-4337-b091-2e0efd36afdd",
+                "resourcePath": "rooms\\tutorial1\\tutorial1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "9eebdb3a-5ca4-4932-bae4-2caed1ee9f9a",
             "Value": {
                 "id": "9e89dfb6-1ff5-45a8-87e5-380a8a8705b6",
@@ -956,14 +964,6 @@
                 "id": "d4cf89f7-1e3f-4851-9629-d708e2a77021",
                 "resourcePath": "sprites\/naz_spr_menu_bg\/naz_spr_menu_bg.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "b5a95ee4-ddb7-4081-b8e5-3b2f8810d213",
-            "Value": {
-                "id": "47efd3b1-d53f-4e85-9567-60d4d474d9d0",
-                "resourcePath": "rooms\\tutorial1\\tutorial1.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
