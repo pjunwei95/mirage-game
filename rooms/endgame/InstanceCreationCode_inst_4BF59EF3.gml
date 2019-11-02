@@ -1,0 +1,1 @@
+msg = "Upon reaching this place, you realise that \nyou don't know if this is the real life or\n the afterlife..."

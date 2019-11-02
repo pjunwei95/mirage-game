@@ -511,6 +511,14 @@
             }
         },
         {
+            "Key": "566ca8ac-6dcc-48b4-8768-b867a47e98ae",
+            "Value": {
+                "id": "20a76c68-a191-4ae3-8fb9-c767db5e2bf7",
+                "resourcePath": "rooms\\endgame\\endgame.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "5714d217-2692-4dca-aca2-25ed45dc1e84",
             "Value": {
                 "id": "580346c5-7246-4782-8395-d99d0fccfac3",
