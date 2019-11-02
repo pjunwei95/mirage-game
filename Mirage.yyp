@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "23286e36-02ed-4798-b64a-8e5a4212c6e2",
+            "Value": {
+                "id": "de409b1b-6893-492e-8d03-44cb6dc2dd1d",
+                "resourcePath": "objects\\jw_obj_nonlethal_ghost\\jw_obj_nonlethal_ghost.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "246063ce-5953-449b-9f60-36a18f9cdbce",
             "Value": {
                 "id": "c65a1fcc-7d6f-497d-917b-84aa6381dbeb",
