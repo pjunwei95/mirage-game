@@ -1,18 +1,18 @@
 {
-    "id": "a63bbd06-d20f-4325-9c6b-ac073281b4ce",
+    "id": "23f9f8c7-0546-4b41-9fc6-696aa4cf51bc",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_tableTut_with_rice",
+    "name": "obj_tut_door_missing_shard",
     "eventList": [
         {
-            "id": "12e960ea-f2a0-4154-b04d-539f38024f60",
+            "id": "d0e2719e-9996-4687-98c8-f9006d3aa421",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "a63bbd06-d20f-4325-9c6b-ac073281b4ce"
+            "m_owner": "23f9f8c7-0546-4b41-9fc6-696aa4cf51bc"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "4249abfc-83a7-4e0b-a22a-7a33c430435a",
+    "spriteId": "0e972fca-8f08-411d-8f6c-5c4d6953ab15",
     "visible": true
 }

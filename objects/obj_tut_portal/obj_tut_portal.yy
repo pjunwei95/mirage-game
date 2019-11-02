@@ -2,7 +2,7 @@
     "id": "bd831cd6-0e47-42a8-aa95-e37d9d59b01d",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_portalTut",
+    "name": "obj_tut_portal",
     "eventList": [
         {
             "id": "bdb37790-eb54-4418-8b0d-8761ea38b7f8",
@@ -34,5 +34,5 @@
     "properties": null,
     "solid": false,
     "spriteId": "fb6956b8-d1f9-479f-8ceb-aa89cf8c4918",
-    "visible": true
+    "visible": false
 }

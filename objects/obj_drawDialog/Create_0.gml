@@ -8,4 +8,4 @@ Yless = 0;
 
 //room_speed = 30;
 
-alarm[0] = room_speed;
+alarm[0] = room_speed*1;

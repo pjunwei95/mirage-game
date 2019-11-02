@@ -1,18 +1,18 @@
 {
-    "id": "54077acf-0944-4156-ae90-6928b0c792c8",
+    "id": "a63bbd06-d20f-4325-9c6b-ac073281b4ce",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_tableTut_with_rice_and_chopsticks",
+    "name": "obj_tut_table_with_rice",
     "eventList": [
         {
-            "id": "80fbf022-3596-4f2a-b150-5783c3527abe",
+            "id": "12e960ea-f2a0-4154-b04d-539f38024f60",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "54077acf-0944-4156-ae90-6928b0c792c8"
+            "m_owner": "a63bbd06-d20f-4325-9c6b-ac073281b4ce"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "98ef8c27-76a6-4942-a4f1-ca974370b073",
-    "visible": false
+    "spriteId": "4249abfc-83a7-4e0b-a22a-7a33c430435a",
+    "visible": true
 }

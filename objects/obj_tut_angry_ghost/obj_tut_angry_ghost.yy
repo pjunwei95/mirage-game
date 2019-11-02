@@ -2,7 +2,7 @@
     "id": "65745110-a101-45bc-ad99-0eb94da2d48d",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_angry_ghost4",
+    "name": "obj_tut_angry_ghost",
     "eventList": [
         {
             "id": "ee6717f9-0c9d-4e5c-8da7-d8000630d0f7",
