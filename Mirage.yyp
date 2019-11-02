@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "114b9321-4521-487c-815f-aa902a2b1385",
+            "Value": {
+                "id": "b2778d68-0787-496a-a95e-6da8c83c954d",
+                "resourcePath": "scripts\\scr_switch_say\\scr_switch_say.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "12032290-f090-4637-87f4-bef638e4824a",
             "Value": {
                 "id": "fd5220db-dd1f-4288-85de-c27a4daa3e8a",
@@ -291,6 +299,14 @@
             "Value": {
                 "id": "a9b26a58-f167-4764-9f39-08daaea1432d",
                 "resourcePath": "objects\/obj_test\/obj_test.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2f2f7f1d-4fb1-416d-886d-ca1cd4a359ce",
+            "Value": {
+                "id": "70e4cc40-a617-4234-a811-5cbecc67cf40",
+                "resourcePath": "objects\\obj_dialTrigIsSwitched\\obj_dialTrigIsSwitched.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -572,6 +588,14 @@
                 "id": "cc4f1f9c-9a81-4f84-be30-edf8a34df5ef",
                 "resourcePath": "views\\6a0a089c-a4f6-4efc-ad46-b1b7ca85a29d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6a34cbac-788b-4269-9409-b98afd51fba7",
+            "Value": {
+                "id": "9de223b8-1a9f-4956-a21f-1a0a98b5e370",
+                "resourcePath": "objects\\obj_drDialWithControl\\obj_drDialWithControl.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1295,6 +1319,14 @@
             }
         },
         {
+            "Key": "ea77ebb1-ee41-47b4-8d3e-57bfb344dfb0",
+            "Value": {
+                "id": "21d17856-b980-434c-a641-d2afdcb156bb",
+                "resourcePath": "sprites\\spr_dialTrigIsSwitched\\spr_dialTrigIsSwitched.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ebf81d34-9275-47b4-82c7-78c107dd1967",
             "Value": {
                 "id": "1b06c5e5-b439-4546-9532-9eaa1576dc14",
@@ -1409,7 +1441,8 @@
     ],
     "script_order": [
         "640df197-4e28-49a5-a1dc-7e83c9536c31",
-        "469892a3-7e1f-4812-865f-1344a92c438d"
+        "469892a3-7e1f-4812-865f-1344a92c438d",
+        "114b9321-4521-487c-815f-aa902a2b1385"
     ],
     "tutorial": ""
 }

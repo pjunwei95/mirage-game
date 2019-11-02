@@ -1,1 +1,1 @@
-msg = "Lucy: Whoa that was scary!\n Maybe I should avoid his path of HUNGER!!"
+msg = "Whoa that was scary!\n Maybe I should avoid his \npath of hunger next time!!"

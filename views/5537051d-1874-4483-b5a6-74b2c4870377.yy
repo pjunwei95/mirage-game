@@ -9,7 +9,7 @@
         "5fcef084-8eb0-4c9e-a752-ffb8bd012590"
     ],
     "filterType": "GMObject",
-    "folderName": "Init",
+    "folderName": "Initialise",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
