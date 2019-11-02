@@ -207,6 +207,20 @@ if (action_key)
 	}
 }	
 
+if (action_key)
+{
+	if (global.chopsticks == 1)
+	{
+		if (place_meeting(x,y,obj_tableTut_with_rice))
+		{
+			global.tablewithrice = 1;
+			instance_deactivate_object(obj_tableTut_with_rice);
+			obj_tableTut_with_rice_and_chopsticks.visible = true;
+			audio_play_sound(hui_chopsticksintorice, 1, 0);
+		}
+	}
+}	
+
 // Interacting with obj_door_missing_shard
 if (action_key)
 {
@@ -274,6 +288,7 @@ if place_meeting(x,y,obj_portalTut) && (action_key)
 {
 	room_goto(stage1);
 	instance_destroy(obj_player);
+	
 	audio_play_sound(hui_changestage, 1, 0);
 }
 

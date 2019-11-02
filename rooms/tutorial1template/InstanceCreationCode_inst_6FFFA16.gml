@@ -1,1 +1,0 @@
-msg = "This shard looks like it can be placed somewhere. I should collect it."

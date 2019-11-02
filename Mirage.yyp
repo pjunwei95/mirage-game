@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "0a6f84f8-d9de-4c5c-ab22-c9cb328d7556",
+            "Value": {
+                "id": "d80034ef-ccbd-41be-9373-c1e4f2dcf0d7",
+                "resourcePath": "views\\0a6f84f8-d9de-4c5c-ab22-c9cb328d7556.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "0b5e6217-98b6-4c90-a35d-23c0c2932f0e",
             "Value": {
                 "id": "aa5c18b8-2af0-489c-8c24-43dcd3aede81",
@@ -455,6 +463,14 @@
             }
         },
         {
+            "Key": "54077acf-0944-4156-ae90-6928b0c792c8",
+            "Value": {
+                "id": "8e0cdd99-0963-4a3b-9986-cc5e1996b81c",
+                "resourcePath": "objects\\obj_tableTut_with_rice_and_chopsticks\\obj_tableTut_with_rice_and_chopsticks.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5714d217-2692-4dca-aca2-25ed45dc1e84",
             "Value": {
                 "id": "580346c5-7246-4782-8395-d99d0fccfac3",
@@ -791,6 +807,14 @@
             }
         },
         {
+            "Key": "a63bbd06-d20f-4325-9c6b-ac073281b4ce",
+            "Value": {
+                "id": "0c9aeb42-3817-4667-a7af-1cf2fc6e989f",
+                "resourcePath": "objects\\obj_tableTut_with_rice\\obj_tableTut_with_rice.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a83b9ca1-e4a7-4980-ba3d-68f4c3cd3557",
             "Value": {
                 "id": "c97f44c2-67d6-4034-8e82-00a952a15674",
@@ -959,6 +983,14 @@
             }
         },
         {
+            "Key": "c41f4124-98ae-42b9-834b-9ca57cd1efb9",
+            "Value": {
+                "id": "7aa51e46-9abb-4248-9a5c-5504351dab1d",
+                "resourcePath": "views\\c41f4124-98ae-42b9-834b-9ca57cd1efb9.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "c53089c1-8376-4a84-ba32-5fb20575c590",
             "Value": {
                 "id": "7490632d-0eb9-4a93-a233-0574cae7aef2",
@@ -1035,6 +1067,14 @@
             "Value": {
                 "id": "9c1f2a67-3964-42a0-a1b9-9f438b0cab25",
                 "resourcePath": "objects\/obj_insense3\/obj_insense3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d6b6faf5-e52d-4fba-8f7d-f3cf0fb67230",
+            "Value": {
+                "id": "e406979f-f4cc-4d9a-83fa-b8ee675e1dc2",
+                "resourcePath": "objects\\obj_hungry_ghostTut\\obj_hungry_ghostTut.yy",
                 "resourceType": "GMObject"
             }
         },
