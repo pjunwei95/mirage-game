@@ -7,7 +7,8 @@ if (obj_table_with_rice_and_chopsticks.visible = true)
 	image_speed = 1;
 	if (place_meeting(x,y,obj_destroyablewall))
 	{
-		global.destroyablewall = 1;		
+		global.destroyablewall = 1;
+		audio_play_sound(hui_walldestroyed,10,false);
 	}
 	
 }

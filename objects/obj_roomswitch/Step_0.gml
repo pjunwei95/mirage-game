@@ -6,4 +6,7 @@ if (switch_key)
 {
 	room_goto(new_room);
 	//instance_destroy(obj_player);
+
+	
+	
 }
