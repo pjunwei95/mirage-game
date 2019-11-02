@@ -2,7 +2,7 @@
 {
     "name": "menu",
     "id": "503de8af-0c67-4d3f-8824-f75f3d31fdaa",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
@@ -11,7 +11,7 @@
         "2b65d5a6-0ae2-4ddd-b666-724966c5ea33",
         "9b5adeb0-1562-4f63-baf4-0e29309083b4"
     ],
-    "IsDnD": true,
+    "IsDnD": false,
     "layers": [
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
