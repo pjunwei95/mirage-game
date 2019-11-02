@@ -247,14 +247,6 @@
             }
         },
         {
-            "Key": "2bf17c1c-5764-48f1-a42d-516aad204ab4",
-            "Value": {
-                "id": "9efac88e-509e-4cb1-986d-078661180d3e",
-                "resourcePath": "rooms\/tutorial1\/tutorial1.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "2bfe2655-9204-409f-91f5-03cf851514cd",
             "Value": {
                 "id": "06f4e6bd-3d48-4cb2-901e-450caa568e03",
@@ -359,14 +351,6 @@
             }
         },
         {
-            "Key": "4083df66-cae6-42f0-90b3-e486a315e0eb",
-            "Value": {
-                "id": "d5e27650-d496-4802-a52e-dcf92f42ca2b",
-                "resourcePath": "rooms\/tutorial1a\/tutorial1a.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "40d72bc4-3c52-4aeb-9474-5d2994b65a6d",
             "Value": {
                 "id": "a8c12768-6f63-47b0-a6a7-947d86a86bab",
@@ -428,6 +412,14 @@
                 "id": "0333044e-63e7-46bf-9e76-677674190e25",
                 "resourcePath": "scripts\/say\/say.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "47e6d5eb-1ad8-47e7-92cf-42f3394ae856",
+            "Value": {
+                "id": "040afee6-850e-469a-8a44-fb8505f6ed9b",
+                "resourcePath": "rooms\\tutorial1a\\tutorial1a.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -855,6 +847,14 @@
             }
         },
         {
+            "Key": "b5a95ee4-ddb7-4081-b8e5-3b2f8810d213",
+            "Value": {
+                "id": "47efd3b1-d53f-4e85-9567-60d4d474d9d0",
+                "resourcePath": "rooms\\tutorial1\\tutorial1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "b6ee0004-9982-4ee0-8989-395124e14d95",
             "Value": {
                 "id": "78ab5989-df2f-441a-b291-d1de0aa1f91d",
@@ -1028,14 +1028,6 @@
                 "id": "6889435f-7304-4387-8839-f8292f30d27f",
                 "resourcePath": "sounds\\hui_jump\\hui_jump.yy",
                 "resourceType": "GMSound"
-            }
-        },
-        {
-            "Key": "d7359835-79d3-400f-80b0-9bb1317410e0",
-            "Value": {
-                "id": "1d27a870-530e-4d28-93b4-8b9d4535d291",
-                "resourcePath": "objects\/obj_roomSwitch\/obj_roomSwitch.yy",
-                "resourceType": "GMObject"
             }
         },
         {
