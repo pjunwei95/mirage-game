@@ -1,1 +1,1 @@
-new_room = boss_stage_afterlife;
+new_room = boss_stage_a;

@@ -2,7 +2,7 @@
 {
     "name": "endgame",
     "id": "566ca8ac-6dcc-48b4-8768-b867a47e98ae",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

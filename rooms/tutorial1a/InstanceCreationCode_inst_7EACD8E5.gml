@@ -1,1 +1,1 @@
-target = r_gameover;
+target = r_gameover_tut;

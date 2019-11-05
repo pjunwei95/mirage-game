@@ -189,6 +189,18 @@ if (place_meeting(x,y,obj_ladder))
 	}	
 }
 
+if (place_meeting(x,y,obj_ladder))
+{
+	if(!audio_is_playing(hui_climb))
+	{
+		audio_play_sound(hui_climb,1,0);
+	}
+}
+else
+{
+	audio_stop_sound(hui_climb);
+}
+
 // Action Key
 action_key = keyboard_check_pressed(ord("Z"))
 
@@ -207,6 +219,23 @@ if (action_key)
 	}
 }	
 
+// Interacting with obj_table_with_rice_boss
+if (action_key)
+{
+	if (global.chopsticks_boss == 1)
+	{
+		if (place_meeting(x,y,obj_table_with_rice_boss))
+		{
+			global.tablewithrice_boss = 1;
+			instance_deactivate_object(obj_table_with_rice_boss);
+			obj_table_with_rice_and_chopsticks_boss.visible = true;
+			audio_play_sound(hui_chopsticksintorice, 1, 0);
+		}
+	}
+}	
+
+
+// Interacting with obj_tut_table_with_rice
 if (action_key)
 {
 	if (global.tut_chopsticks == 1)
@@ -228,12 +257,27 @@ if (action_key)
 	{
 		if (place_meeting(x,y,obj_door_missing_shard))
 		{
-			global.fulldoor = 0;
-			global.portal = 0;
+			if (global.fulldoor = 1)
+			{
 			audio_play_sound(hui_insertmirror, 1, 0);
+			}
 		}
 	}
 }	
+
+if (action_key)
+{
+	if (!instance_exists(obj_shard))
+	{
+		if (place_meeting(x,y,obj_door_missing_shard))
+		{
+			global.fulldoor = 0;
+			global.portal = 0;
+		}
+	}
+}	
+
+
 
 // Interacting with obj_tut_door_missing_shard
 if (action_key)
@@ -242,9 +286,49 @@ if (action_key)
 	{
 		if (place_meeting(x,y,obj_tut_door_missing_shard))
 		{
+			if (global.tut_fulldoor = 1)
+			{
+			audio_play_sound(hui_insertmirror, 1, 0);
+			}
+		}
+	}
+}	
+
+if (action_key)
+{
+	if (!instance_exists(obj_tut_shard))
+	{
+		if (place_meeting(x,y,obj_tut_door_missing_shard))
+		{
 			global.tut_fulldoor = 0;
 			global.tut_portal = 0;
+		}
+	}
+}	
+
+// Interacting with obj_door_missing_shard_boss
+if (action_key)
+{
+	if (!instance_exists(obj_boss_shard)) && (!instance_exists(obj_boss_shard1))
+	{
+		if (place_meeting(x,y,obj_door_missing_shard_boss))
+		{
+			if (global.fulldoor_boss = 1)
+			{
 			audio_play_sound(hui_insertmirror, 1, 0);
+			}
+		}
+	}
+}	
+
+if (action_key)
+{
+	if (!instance_exists(obj_boss_shard)) &&  (!instance_exists(obj_boss_shard1))
+	{
+		if (place_meeting(x,y,obj_door_missing_shard_boss))
+		{
+			global.fulldoor_boss = 0;
+			global.portal_boss = 0;		
 		}
 	}
 }	
@@ -293,7 +377,29 @@ if (action_key)
 	}
 }
 
-// Interacting with obj_portal to go to stage 2
+// Interacting with obj_insense_boss
+if (action_key)
+{
+	if (place_meeting(x,y,obj_insense_boss))
+	{
+		global.insense_boss = 0;
+		global.angryghost_boss1 = 1;
+		audio_play_sound(hui_incenseupright, 1, 0);
+	}
+}	
+
+// Interacting with obj_insense_boss1
+if (action_key)
+{
+	if (place_meeting(x,y,obj_insense_boss1))
+	{
+		global.insense_boss1 = 0;
+		global.angryghost_boss2 = 1;
+		audio_play_sound(hui_incenseupright, 1, 0);
+	}
+}	
+
+// Interacting with obj_portal to go to boss stage
 if (place_meeting(x,y,obj_portal)) && (global.stage2 = 1) && (action_key)
 {
 	with (obj_player)
@@ -308,6 +414,21 @@ if (place_meeting(x,y,obj_portal)) && (global.stage2 = 1) && (action_key)
 	}
 }
 
+// Interacting with obj_portal to go to endgame
+if (place_meeting(x,y,obj_portal_boss)) && (global.endgame = 1) && (action_key)
+{
+	with (obj_player)
+	{
+		if (hascontrol)	
+		{
+			hascontrol = false;
+			room_goto(endgame);
+			instance_destroy(obj_player);
+			audio_play_sound(hui_changestage, 1, 0);
+		}	
+	}
+}
+
 // tutorial level
 if place_meeting(x,y,obj_tut_portal) && (global.tut_stage1 = 1) && (action_key)
 {
@@ -316,6 +437,38 @@ if place_meeting(x,y,obj_tut_portal) && (global.tut_stage1 = 1) && (action_key)
 	
 	audio_play_sound(hui_changestage, 1, 0);
 }
+
+// Interacting with obj_generator_off
+if (action_key)
+{
+	if (global.wrench == 1)
+	{
+		if (place_meeting(x,y,obj_generator_off))
+		{
+			audio_play_sound(hui_generatoron,2,0);
+			audio_sound_gain(hui_generatoron,0,0);
+			audio_sound_gain(hui_generatoron,0.6,2000);
+			audio_play_sound(hui_lighton,2,0);
+			audio_sound_gain(hui_lighton,0,0);
+			audio_sound_gain(hui_lighton,0.1,1);
+		}
+	}
+}
+			
+
+if (action_key)
+{
+	if (global.wrench == 1)
+	{
+		if (place_meeting(x,y,obj_generator_off))
+		{
+			global.generator = 1;
+			instance_deactivate_object(obj_generator_off);
+			obj_generator_on.visible = true;
+			global.light = 1;
+		}
+	}
+}	
 
 // Animation
 if (!place_meeting(x,y+1,obj_greenwall))
