@@ -5,3 +5,4 @@
 	draw_text(740,730, "Press 'Q' to exit to main menu");
 
 }
+*/
