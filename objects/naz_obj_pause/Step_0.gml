@@ -7,6 +7,7 @@ if (keyboard_check_pressed(vk_escape)) {
 
 	}
 	else {
+		instance_destroy(naz_obj_controls_pause);
 		pause = false;
 		instance_activate_all();
 	}

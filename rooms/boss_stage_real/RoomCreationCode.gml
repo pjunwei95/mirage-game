@@ -1,14 +1,6 @@
-//cut previous BGM
-{
-	audio_stop_sound(hui_rain)
-}
+audio_stop_sound(hui_afterlifeBGM);
 
-//cut afterlife BGM
+if (!audio_is_playing(hui_realBGM))
 {
-	audio_stop_sound(hui_afterlife)
-}
-
-//BGM for boss
-{
-	audio_play_sound(hui_boss,10,1)
+	audio_play_sound(hui_realBGM,1000,1);
 }

@@ -1,0 +1,1 @@
+msg = "Now what?...\nThere seems to be an aura nearby..."

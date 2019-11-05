@@ -3,7 +3,7 @@ if keyboard_check_pressed(ord("R")) {
 	
 	//restart sound
 	{
-		audio_play_sound(hui_reset,1,0)
+		audio_play_sound(hui_reset, 1, 0);
 	}
 	
 	// table with rice reset
@@ -23,6 +23,7 @@ if keyboard_check_pressed(ord("R")) {
 	if (global.destroyablewall == 1) {
 		global.destroyablewall = 0;
 		instance_activate_object(obj_destroyablewall);
+		layer_set_visible("fragilewall_tile",true);
 	}
 	
 	// hungry ghost reset
