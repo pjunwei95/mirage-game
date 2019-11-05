@@ -1567,6 +1567,14 @@
             }
         },
         {
+            "Key": "d916c16a-1146-4f76-b388-ea1ac0d39f92",
+            "Value": {
+                "id": "fa8a0e00-9776-4b9c-a086-7552361d74c8",
+                "resourcePath": "sprites\\spr_background_tutorial1a\\spr_background_tutorial1a.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d9ea13eb-6ead-48c3-b3c1-2d0ee86f7480",
             "Value": {
                 "id": "4318b792-6f51-46ee-bef9-1b7ddd703b31",
@@ -1644,6 +1652,14 @@
                 "id": "ed30fdb8-9fed-459b-a614-638b3d6f1576",
                 "resourcePath": "objects\/naz_obj_menu_bg\/naz_obj_menu_bg.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e6c3ac13-e748-4ed0-9ae0-4f95b396b4aa",
+            "Value": {
+                "id": "33fbad79-3b5c-44ef-ad74-c42ec0570817",
+                "resourcePath": "sprites\\spr_background_tutorial1\\spr_background_tutorial1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
