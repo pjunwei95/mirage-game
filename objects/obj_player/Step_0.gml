@@ -177,16 +177,24 @@ else
 // Ladder
 if (place_meeting(x,y,obj_ladder)) 
 {
-	grv = 0;
-	vsp = 0;
-	if (keyboard_check(vk_up))
-	{
-		vsp = -3;
-	}
-	if (keyboard_check(vk_down))
-	{
-		vsp = 3;
-	}	
+ grv = 0;
+ vsp = 0;
+ if (keyboard_check(vk_up))
+ {
+  vsp = -3;
+  if (!audio_is_playing(hui_climb))
+  {
+   audio_play_sound(hui_climb,1,0);
+  }
+ }
+ if (keyboard_check(vk_down))
+ {
+  vsp = 3;
+  if (!audio_is_playing(hui_climb))
+  {
+   audio_play_sound(hui_climb,1,0);
+  }
+ } 
 }
 
 if (place_meeting(x,y,obj_ladder))
