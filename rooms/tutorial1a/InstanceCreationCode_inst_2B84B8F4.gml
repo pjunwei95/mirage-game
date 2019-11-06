@@ -1,1 +1,1 @@
-msg = "This ghost seems fat. Will I die if it chase after me?"
+msg = "This ghost seems fat.\nWill I die if it chase after me?"

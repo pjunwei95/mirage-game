@@ -1,1 +1,1 @@
-msg = "Wow.\nThis mirror mirrors the 'other' world."
+msg = "Wow.\n This mirror mirrors \nthe 'other' world."

@@ -1,1 +1,1 @@
-msg = "This shard looks like it can be placed somewhere. I should collect it."
+msg = "This shard looks like \nit can be placed somewhere.\nI should collect it."

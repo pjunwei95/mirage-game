@@ -1,1 +1,1 @@
-msg = "Remember what your mom always says?\nPressing the 'Z' key will place the chopsticks upright\nin the rice bowl and attract ghosts. "
+msg = "Remember what your\n mom always says?\nPressing the 'Z' key will \nplace the chopsticks upright\n in the rice bowl\nand attract ghosts. "
