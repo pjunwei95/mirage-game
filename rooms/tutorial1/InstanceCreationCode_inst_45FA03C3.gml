@@ -1,1 +1,0 @@
-obj_tut_table_with_rice_and_chopsticks.visible = false;

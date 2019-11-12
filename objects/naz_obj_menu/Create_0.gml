@@ -1,7 +1,7 @@
 
 menu_x = x;
 menu_y = y;
-button_h = 32;
+button_h = 50;
 
 // buttons
 button[0] = "Start";

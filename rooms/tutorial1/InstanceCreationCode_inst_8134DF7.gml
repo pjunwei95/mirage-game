@@ -1,1 +1,1 @@
-msg = "Oh this looks like it can fit. Let's press 'Z'."
+msg = "Oh it looks\n like it can fit.\nPress 'Z'."

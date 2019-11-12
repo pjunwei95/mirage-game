@@ -69,8 +69,6 @@ if keyboard_check_pressed(ord("R")) {
 	if (global.hungryghost_boss == 1) {
 		global.hungryghost_boss = 0;
 		instance_activate_object(obj_hungry_ghost_boss);
-		obj_pole.visible = false;
-		obj_pole1.visible = false;
 	}
 	
 	// insense 1 and ghost 1 reset

@@ -197,18 +197,6 @@ if (place_meeting(x,y,obj_ladder))
  } 
 }
 
-if (place_meeting(x,y,obj_ladder))
-{
-	if(!audio_is_playing(hui_climb))
-	{
-		audio_play_sound(hui_climb,1,0);
-	}
-}
-else
-{
-	audio_stop_sound(hui_climb);
-}
-
 // Action Key
 action_key = keyboard_check_pressed(ord("Z"))
 
@@ -331,7 +319,7 @@ if (action_key)
 
 if (action_key)
 {
-	if (!instance_exists(obj_boss_shard)) &&  (!instance_exists(obj_boss_shard1))
+	if (!instance_exists(obj_boss_shard)) && (!instance_exists(obj_boss_shard1))
 	{
 		if (place_meeting(x,y,obj_door_missing_shard_boss))
 		{

@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "obj_pole",
     "eventList": [
-        {
-            "id": "080b38d7-52a3-4a24-a997-c62c6f30e6f6",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "f669132a-bfb1-4562-8387-91a45f642a16"
-        }
+        
     ],
     "maskSpriteId": "5c88577f-614c-4ada-827f-9d7b7bd124e4",
     "overriddenProperties": null,
