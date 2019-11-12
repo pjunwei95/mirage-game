@@ -14,12 +14,12 @@ Download the executable from the latest release of the repository and play
 
 # Credits:
 
-Producer: Ng Zheng Hui
-Designer: Yap Wen Syn
-Artist: Ryan Euclid Chin Qingfeng
-Level & Mechanics Programmer: Andrew Sim Kwang Sheng
-Dialog & Merging Programmer: Pei Junwei 
-QA/Tester: Muhammad Nazri B Nordin 
+Producer: Ng Zheng Hui  
+Designer: Yap Wen Syn  
+Artist: Ryan Euclid Chin Qingfeng  
+Level & Mechanics Programmer: Andrew Sim Kwang Sheng  
+Dialog & Merging Programmer: Pei Junwei  
+QA/Tester: Muhammad Nazri B Nordin  
 
 # Copyrights:
 ## Sound and Music credits given to:
