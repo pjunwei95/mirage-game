@@ -239,7 +239,7 @@
             "inheritVisibility": false,
             "instances": [
 {"name": "inst_87BD7AA","id": "96c1dd57-7c8a-4f2a-a1be-d28b518be2be","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_87BD7AA","objId": "a63bbd06-d20f-4325-9c6b-ac073281b4ce","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 480,"y": 560},
-{"name": "inst_7BF1420B","id": "6743cf2c-517d-41ce-ac9e-384abda2d14e","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_7BF1420B","objId": "d6b6faf5-e52d-4fba-8f7d-f3cf0fb67230","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 704,"y": 544}
+{"name": "inst_7BF1420B","id": "6743cf2c-517d-41ce-ac9e-384abda2d14e","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_7BF1420B.gml","creationCodeType": ".gml","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_7BF1420B","objId": "d6b6faf5-e52d-4fba-8f7d-f3cf0fb67230","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 704,"y": 544}
             ],
             "layers": [
 
@@ -426,7 +426,7 @@
         "Height": 768,
         "inheritRoomSettings": false,
         "modelName": "GMRoomSettings",
-        "persistent": true,
+        "persistent": false,
         "mvc": "1.0",
         "Width": 1024
     },

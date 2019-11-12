@@ -2,7 +2,7 @@
 	draw_set_font(font_main);
 	draw_set_color(c_white);
 	draw_set_alpha(1);
-	draw_text((view_wport[0]-96)/1.8,(view_hport[0]-96)/5, "Credits");
+	draw_text(512, 90, "Credits");
 	//draw_text(room_get_viewport(0,3)/2,room_get_viewport(0,4)/2, "Paused");
 
 

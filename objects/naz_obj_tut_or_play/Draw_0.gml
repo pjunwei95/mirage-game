@@ -1,7 +1,7 @@
 draw_set_font(font_main);
 	draw_set_color(c_white);
 	draw_set_alpha(1);
-	draw_text((view_wport[0]-96)/1.8,(view_hport[0]-96)/3, "Would you like to play the tutorial?");
+	draw_text(512,250, "Would you like to play the tutorial?");
 
 
 var j = 0;

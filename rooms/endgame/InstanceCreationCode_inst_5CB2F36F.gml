@@ -1,1 +1,1 @@
-msg = "This is actually all just a figment of imagination by Lucy..."
+msg = "You start to realize that\n this has been nothing but a\nfigment of Lucy's imagination..."

@@ -1,1 +1,1 @@
-msg = "Thanks for being a part of her imagination..."
+msg = "Thank you for being\n a part of her imagination..."

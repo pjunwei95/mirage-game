@@ -1,1 +1,1 @@
-msg = "Thanks for playing Mirage <3"
+msg = "Thank you for\nplaying Mirage <3"
