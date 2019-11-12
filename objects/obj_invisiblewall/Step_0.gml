@@ -1,9 +1,10 @@
 /// @description
 if (global.inviwall = 1)
 {
-	instance_activate_object(obj_invisiblewall);
-	obj_invisiblewall.visible = true;
+	sprite_index = spr_inviwall;
+	mask_index = spr_inviwall;
 }	
 else {
-	instance_deactivate_object(obj_invisiblewall);
+	sprite_index = spr_blank;
+	mask_index = spr_blank;
 }

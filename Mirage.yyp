@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "0b88619a-41d9-4da5-9c0a-375541c53ad4",
+            "Value": {
+                "id": "e3948c8c-71be-410e-bcc6-d9d81628571f",
+                "resourcePath": "sprites\/spr_background_boss\/spr_background_boss.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0bdb0106-1bc0-4e4a-bd7e-7ed6bcfcfd64",
             "Value": {
                 "id": "4d993439-6aca-4c81-9ed2-16f0067a17ac",
@@ -546,7 +554,7 @@
             "Key": "4d19ffde-6ec4-4038-8a21-7d64c8732d2c",
             "Value": {
                 "id": "f4a1c788-c6e7-46d7-ad48-dd0b34452c51",
-                "resourcePath": "objects\\hui_BGM\\hui_BGM.yy",
+                "resourcePath": "objects\/hui_BGM\/hui_BGM.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -850,7 +858,7 @@
             "Key": "7dacf6ce-cce7-4bba-95bc-e9d717f3859e",
             "Value": {
                 "id": "ede6d971-b63a-42c1-bdb2-2007a09a1b88",
-                "resourcePath": "sounds\\hui_afterlifeBGM\\hui_afterlifeBGM.yy",
+                "resourcePath": "sounds\/hui_afterlifeBGM\/hui_afterlifeBGM.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -1159,6 +1167,14 @@
             }
         },
         {
+            "Key": "a640ae6a-578c-4fde-96d7-f2a7611805a4",
+            "Value": {
+                "id": "e493d6f4-3a57-4379-aae8-4bc3ad4e23b1",
+                "resourcePath": "sprites\/spr_background_bossa\/spr_background_bossa.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a83b9ca1-e4a7-4980-ba3d-68f4c3cd3557",
             "Value": {
                 "id": "c97f44c2-67d6-4034-8e82-00a952a15674",
@@ -1247,6 +1263,22 @@
             }
         },
         {
+            "Key": "b0c04803-cbc0-40e5-9103-fc4cb5fecf2a",
+            "Value": {
+                "id": "513f3af5-9141-4dc1-8a22-0c22715a95cd",
+                "resourcePath": "objects\/obj_mod_hack\/obj_mod_hack.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b10ddc81-7a36-4432-a160-4963b02388a3",
+            "Value": {
+                "id": "c45c62c0-b5d3-4e8a-aead-652083ea3671",
+                "resourcePath": "sprites\/spr_blank\/spr_blank.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b1e0001e-250e-4c17-898a-3cb6e2de047e",
             "Value": {
                 "id": "ec6569cf-4809-465c-a736-7894aa372054",
@@ -1332,6 +1364,14 @@
                 "id": "121a21c0-f858-4bbf-aa90-38b02584f9c5",
                 "resourcePath": "objects\/obj_portal\/obj_portal.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ba683b93-44fb-4521-86dd-81a1eca23b3f",
+            "Value": {
+                "id": "3ba3379c-67a0-41e4-b1dd-ae4f1de25cd6",
+                "resourcePath": "fonts\/font_mainmenu\/font_mainmenu.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -1506,16 +1546,8 @@
             "Key": "d51d15a5-c2c1-4170-a85d-1c3b7d57d999",
             "Value": {
                 "id": "0f7911ee-2f55-4dca-a6bd-836ae0ff12cd",
-                "resourcePath": "sprites\\sprite55\\sprite55.yy",
+                "resourcePath": "sprites\/sprite55\/sprite55.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "d542b671-eff2-4f92-b56a-1855dc94c2e0",
-            "Value": {
-                "id": "69a12828-bc81-4712-8a59-e44d53fc7655",
-                "resourcePath": "sounds\/hui_rain\/hui_rain.yy",
-                "resourceType": "GMSound"
             }
         },
         {
@@ -1570,7 +1602,7 @@
             "Key": "d916c16a-1146-4f76-b388-ea1ac0d39f92",
             "Value": {
                 "id": "fa8a0e00-9776-4b9c-a086-7552361d74c8",
-                "resourcePath": "sprites\\spr_background_tutorial1a\\spr_background_tutorial1a.yy",
+                "resourcePath": "sprites\/spr_background_tutorial1a\/spr_background_tutorial1a.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1591,10 +1623,10 @@
             }
         },
         {
-            "Key": "db5d6ae9-7b5b-4d93-92a9-39d4696d8db4",
+            "Key": "dbfd4cb7-8377-4f85-9caa-43fff2fa0722",
             "Value": {
-                "id": "94e1923d-2f16-4206-8057-0d62ccb02b4e",
-                "resourcePath": "paths\/path2\/path2.yy",
+                "id": "8e9452c9-8895-4b22-be6b-b709e7bb1a9d",
+                "resourcePath": "paths\/path8\/path8.yy",
                 "resourceType": "GMPath"
             }
         },
@@ -1634,7 +1666,7 @@
             "Key": "e33eaeb3-e358-4d63-b7c2-15c5de7a9dbe",
             "Value": {
                 "id": "d44bcf2f-8c11-4f6a-af4a-ae8636b82131",
-                "resourcePath": "sounds\\hui_climb\\hui_climb.yy",
+                "resourcePath": "sounds\/hui_climb\/hui_climb.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -1658,7 +1690,7 @@
             "Key": "e6c3ac13-e748-4ed0-9ae0-4f95b396b4aa",
             "Value": {
                 "id": "33fbad79-3b5c-44ef-ad74-c42ec0570817",
-                "resourcePath": "sprites\\spr_background_tutorial1\\spr_background_tutorial1.yy",
+                "resourcePath": "sprites\/spr_background_tutorial1\/spr_background_tutorial1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1730,7 +1762,7 @@
             "Key": "efac4c42-dd9a-443d-a3a1-9ec9e4959897",
             "Value": {
                 "id": "2bdea4bf-0c78-46f6-979a-5b22f88ebc75",
-                "resourcePath": "sounds\\hui_generatoron\\hui_generatoron.yy",
+                "resourcePath": "sounds\/hui_generatoron\/hui_generatoron.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -1762,7 +1794,7 @@
             "Key": "f55c9f0c-569f-4cc7-be59-1d5fe255bd7d",
             "Value": {
                 "id": "19b5f749-b2db-4487-9393-124541f835dc",
-                "resourcePath": "sounds\\hui_realBGM\\hui_realBGM.yy",
+                "resourcePath": "sounds\/hui_realBGM\/hui_realBGM.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -1770,7 +1802,7 @@
             "Key": "f5797e32-38b1-4460-ab33-9445261271de",
             "Value": {
                 "id": "fcf30cf3-2783-4a3f-b575-03de02f0169a",
-                "resourcePath": "sounds\\hui_lighton\\hui_lighton.yy",
+                "resourcePath": "sounds\/hui_lighton\/hui_lighton.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -1799,18 +1831,10 @@
             }
         },
         {
-            "Key": "f8ddce0f-c2b5-4d73-8402-c7336bb2617d",
-            "Value": {
-                "id": "f629e7dc-6876-472b-9f6b-9f7d7b5c7e21",
-                "resourcePath": "sounds\/hui_afterlife\/hui_afterlife.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "fa9295e3-05ec-47ed-a8d4-59b2aa4b4759",
             "Value": {
                 "id": "9a9317a7-87c8-428b-95e1-987869a20d06",
-                "resourcePath": "sprites\\sprite56\\sprite56.yy",
+                "resourcePath": "sprites\/sprite56\/sprite56.yy",
                 "resourceType": "GMSprite"
             }
         },

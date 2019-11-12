@@ -1,1 +1,1 @@
-msg = "Press 'Z' key to place the joss sticks\n upright to pay respects to the dead."
+msg = "Press 'Z' key to make\n the joss sticks upright\n to pay respects to the dead."

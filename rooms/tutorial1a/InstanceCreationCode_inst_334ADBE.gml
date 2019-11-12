@@ -1,1 +1,1 @@
-msg = "Wow.\n This mirror mirrors \nthe 'other' world."
+msg = "Lucy: Wow.\n I can go through \nmirrors in this dimension."

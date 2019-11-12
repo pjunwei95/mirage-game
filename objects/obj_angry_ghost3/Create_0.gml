@@ -1,5 +1,5 @@
 with (other)
 {
-	path_start(path2,3,path_action_reverse,false);
+	path_start(path8,2,path_action_reverse,false);
 	
 }

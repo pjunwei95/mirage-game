@@ -1,4 +1,4 @@
-  //Changing sprite of angry ghost and changing sprite of insense1
+//Changing sprite of angry ghost and changing sprite of insense1
 global.angryghost1 = 0;
 global.insense1 = 1;
 

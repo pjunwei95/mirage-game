@@ -1,1 +1,1 @@
-msg = "This ghost doesn't\nseem friendly. \nMaybe I should avoid him...\nPress 'C'. "
+msg = "Lucy: This ghost doesnt\nseem friendly.\nI should avoid it...\nPress 'C'."
