@@ -27,7 +27,7 @@ if keyboard_check_pressed(ord("R")) {
 	
 	// hungry ghost reset
 	if (global.tut_hungryghost == 1) {
-		global.tut_hungryghost = 0
+		global.tut_hungryghost = 0;
 		instance_activate_object(obj_tut_hungry_ghost);
 	}
 	
