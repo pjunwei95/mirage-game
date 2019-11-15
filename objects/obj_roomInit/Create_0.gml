@@ -93,3 +93,6 @@ global.insense_boss1 = 1;
 
 //Setting of transition to endgame via obj_portal_boss
 global.endgame = 0;
+
+// End Game
+global.endportal = 0;

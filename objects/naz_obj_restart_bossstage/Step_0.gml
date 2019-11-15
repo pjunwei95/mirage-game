@@ -103,6 +103,9 @@ if keyboard_check_pressed(ord("R")) {
 	if (room != boss_stage_real) {
 		room_goto(boss_stage_real);
 	}
-
 	
+	instance_deactivate_object(obj_elevator);
+	if (room == boss_stage_real) {
+	instance_activate_object(obj_elevator);
+	}
 }

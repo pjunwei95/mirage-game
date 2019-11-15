@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "1a4c2c98-61e4-4be6-a402-12f18ccedf78",
+            "Value": {
+                "id": "dc3d0468-9232-4482-a5f2-9f823a889aff",
+                "resourcePath": "objects\\obj_dialogueTrigger_end\\obj_dialogueTrigger_end.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1a6efcf5-b2ce-4e70-a082-228ae3c0fbc1",
             "Value": {
                 "id": "ac1d2424-63ea-4d92-9d40-3d665f3729c4",
@@ -1463,6 +1471,14 @@
             }
         },
         {
+            "Key": "c4fda8c6-df43-4547-b794-b4f8ca9131db",
+            "Value": {
+                "id": "91a53885-25e7-401e-87cd-b0f84d9abfb3",
+                "resourcePath": "objects\\obj_portal_end\\obj_portal_end.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c53089c1-8376-4a84-ba32-5fb20575c590",
             "Value": {
                 "id": "7490632d-0eb9-4a93-a233-0574cae7aef2",
@@ -1660,6 +1676,14 @@
                 "id": "fece6656-7326-4f0c-b83d-c385f152cb61",
                 "resourcePath": "objects\/naz_obj_controls_pause\/naz_obj_controls_pause.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "dd5e3d07-f0f5-4446-abea-f16d237b2a84",
+            "Value": {
+                "id": "c4fee7a6-9a33-458e-a6f8-aba7dd029e42",
+                "resourcePath": "views\\dd5e3d07-f0f5-4446-abea-f16d237b2a84.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

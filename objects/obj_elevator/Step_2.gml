@@ -30,3 +30,6 @@ if (playerabove1 != noone)
 	playerabove1.y += vsp;	
 }
 
+if (room != boss_stage_a) and (room != boss_stage_real) {
+	instance_deactivate_object(obj_elevator);
+}
